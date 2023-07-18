@@ -1,7 +1,29 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="c45d4963-78e1-467e-8c1a-7532b1586aec" name="Changes" comment="" />
+    <list default="true" id="c45d4963-78e1-467e-8c1a-7532b1586aec" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/Assets/Pictures/Light.controller" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Pictures/Light.controller.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Pictures/green.anim" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Pictures/green.anim.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Pictures/light.anim" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Pictures/light.anim.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Prefabs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Prefabs/Light.prefab" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Prefabs/Light.prefab.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Scripts/CompassBlinker.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Scripts/CompassBlinker.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Scripts/CompassRotator.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Scripts/CompassRotator.cs.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.Yasaman's Journey/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Yasaman's Journey/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Pictures/Compass-light.png" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Pictures/Compass-light.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Pictures/Compass-pointer.png" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Pictures/Compass-pointer.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Pictures/Compass.png" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Pictures/Compass.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Pictures/compass-light2.png" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Pictures/compass-light2.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scenes/SampleScene.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/SampleScene.unity" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ProjectSettings/ProjectSettings.asset" beforeDir="false" afterPath="$PROJECT_DIR$/ProjectSettings/ProjectSettings.asset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ProjectSettings/TagManager.asset" beforeDir="false" afterPath="$PROJECT_DIR$/ProjectSettings/TagManager.asset" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -64,6 +86,7 @@
       <workItem from="1689631273949" duration="6000" />
       <workItem from="1689631989439" duration="27000" />
       <workItem from="1689632050177" duration="32000" />
+      <workItem from="1689692534402" duration="10128000" />
     </task>
     <servers />
   </component>
