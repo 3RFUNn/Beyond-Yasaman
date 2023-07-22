@@ -1,11 +1,13 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.SceneManagement;
 
 public class CompassBlinker : MonoBehaviour
 {
     // Reference to the animator component
     private Animator animator;
+    [SerializeField] private Animator _animator;
 
     // Name of the trigger parameter
     private string triggerName = "Green";
@@ -20,6 +22,14 @@ public class CompassBlinker : MonoBehaviour
         animator = GetComponent<Animator>();
     }
 
+    private IEnumerator ChangeScene()
+    {
+        yield return new WaitForSeconds(2);
+        _animator.SetTrigger("ZoomIn");
+        yield return new WaitForSeconds(2);
+        SceneManager.LoadScene("S1_Scene2");
+    }
+
     // OnTriggerEnter2D is called when the Collider2D other enters the trigger (2D physics only)
     void OnTriggerEnter2D(Collider2D other)
     {
@@ -28,7 +38,8 @@ public class CompassBlinker : MonoBehaviour
         {
             // Set the trigger parameter to true
             animator.SetTrigger(triggerName);
-            Debug.Log("hello");
+            StartCoroutine(ChangeScene());
+
         }
     }
 
@@ -41,7 +52,7 @@ public class CompassBlinker : MonoBehaviour
             // Reset the trigger parameter to false
             animator.SetTrigger(triggerName2);
             
-            Debug.Log("goodbye");
+            
         }
     }
 }
