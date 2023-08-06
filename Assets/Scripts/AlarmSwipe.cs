@@ -1,15 +1,13 @@
-
+using System.Threading.Tasks;
 using UnityEngine;
-using UnityEngine.Events;
-using UnityEngine.EventSystems;
+using UnityEngine.SceneManagement;
 
 public class AlarmSwipe : MonoBehaviour
 {
     // The minimum distance to swipe the object
     public float swipeThreshold = 0.5f;
-
-    // The event to invoke when the object is swiped
-    public UnityEvent onSwipe;
+    [SerializeField] private GameObject _gameObject;
+    private bool once = true;
 
     // The initial position of the object
     private Vector3 startPosition;
@@ -73,11 +71,20 @@ public class AlarmSwipe : MonoBehaviour
             // Check if the object has reached the end of the swipe
             if (Mathf.Abs(deltaX) == swipeThreshold)
             {
-                // Invoke the event
-                
-                onSwipe.Invoke();
+                if (once)
+                {
+                    _gameObject.GetComponent<Animator>().enabled = false;
+                    Loadnextscene();
+                    once = false;
+                }
             }
         }
+    }
+
+    private async void Loadnextscene()
+    {
+        await Task.Delay(2000);
+        SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex + 1);
     }
 
     // A helper method to check if the mouse is over the object

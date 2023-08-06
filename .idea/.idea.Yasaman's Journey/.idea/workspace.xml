@@ -2,76 +2,22 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="c45d4963-78e1-467e-8c1a-7532b1586aec" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/Assets/Pictures/Scene1.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Pictures/Scene1/Compass-light.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Pictures/Scene1/Compass-light.png.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Pictures/Scene1/Compass-pointer.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Pictures/Scene1/Compass-pointer.png.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Pictures/Scene1/Compass.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Pictures/Scene1/Compass.png.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Pictures/Scene1/Light.controller" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Pictures/Scene1/Light.controller.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Pictures/Scene1/Main Camera.controller" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Pictures/Scene1/Main Camera.controller.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Pictures/Scene1/ZoomIn.anim" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Pictures/Scene1/ZoomIn.anim.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Pictures/Scene1/compass-light2.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Pictures/Scene1/compass-light2.png.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Pictures/Scene1/green.anim" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Pictures/Scene1/green.anim.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Pictures/Scene1/light.anim" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Pictures/Scene1/light.anim.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Pictures/Scene2.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Pictures/Scene2/Bedroom2.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Pictures/Scene2/Bedroom2.png.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Pictures/Scene2/Mbile-on.controller" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Pictures/Scene2/Mbile-on.controller.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Pictures/Scene2/Mbile-on2.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Pictures/Scene2/Mbile-on2.png.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Pictures/Scene2/Mobile-off.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Pictures/Scene2/Mobile-off.png.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Pictures/Scene2/ringing.anim" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Pictures/Scene2/ringing.anim.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Pictures/Scene3.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Pictures/Scene3/Stop.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Pictures/Scene3/Stop.png.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Pictures/Scene3/Swipper.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Pictures/Scene3/Swipper.png.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Pictures/Scene3/mobile.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Pictures/Scene3/mobile.png.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Pictures/Scene3/snooz.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Pictures/Scene3/snooz.png.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Scenes/S1_Scene1.unity" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Scenes/S1_Scene1.unity.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Scenes/S1_Scene2.unity" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Scenes/S1_Scene2.unity.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Scenes/S1_Scene3.unity" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Scenes/S1_Scene3.unity.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Scripts/AlarmSwipe.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Scripts/AlarmSwipe.cs.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Scripts/MobileOnOff.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Scripts/MobileOnOff.cs.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Scripts/TouchPhone.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Scripts/TouchPhone.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Pictures/Scene3/MobileParent.controller" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Pictures/Scene3/MobileParent.controller.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Pictures/Scene3/ringing.anim" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Pictures/Scene3/ringing.anim.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Scenes/S1_Scene4.unity" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Scenes/S1_Scene4.unity.meta" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.Yasaman's Journey/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Yasaman's Journey/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Pictures/Compass-light.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Pictures/Compass-light.png.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Pictures/Compass-pointer.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Pictures/Compass-pointer.png.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Pictures/Compass.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Pictures/Compass.png.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Pictures/Light.controller" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Pictures/Light.controller.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Pictures/compass-light2.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Pictures/compass-light2.png.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Pictures/green.anim" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Pictures/green.anim.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Pictures/light.anim" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Pictures/light.anim.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scenes/SampleScene.unity" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scenes/SampleScene.unity.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/CompassBlinker.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/CompassBlinker.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scenes/S1_Scene2.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/S1_Scene2.unity" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scenes/S1_Scene3.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/S1_Scene3.unity" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/AlarmSwipe.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/AlarmSwipe.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/MobileOnOff.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/MobileOnOff.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Packages/manifest.json" beforeDir="false" afterPath="$PROJECT_DIR$/Packages/manifest.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Packages/packages-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/Packages/packages-lock.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/ProjectSettings/EditorBuildSettings.asset" beforeDir="false" afterPath="$PROJECT_DIR$/ProjectSettings/EditorBuildSettings.asset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ProjectSettings/ProjectVersion.txt" beforeDir="false" afterPath="$PROJECT_DIR$/ProjectSettings/ProjectVersion.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ProjectSettings/boot.config" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -79,7 +25,6 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="HighlightingSettingsPerFile">
-    <setting file="file://$PROJECT_DIR$/Library/PackageCache/com.unity.collab-proxy@2.0.3/Editor/PlasticSCM/CloudProjectDownloader/ParseArguments.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/TouchPhone.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/MobileOnOff.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/AlarmSwipe.cs" root0="FORCE_HIGHLIGHTING" />
@@ -142,6 +87,7 @@
       <workItem from="1689860406843" duration="623000" />
       <workItem from="1689937760093" duration="2569000" />
       <workItem from="1689956622109" duration="9926000" />
+      <workItem from="1691356832403" duration="2684000" />
     </task>
     <servers />
   </component>

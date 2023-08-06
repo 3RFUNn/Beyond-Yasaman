@@ -16,7 +16,7 @@ public class MobileOnOff : MonoBehaviour
         await Task.Delay(4000);
 
         GameObject child = this.transform.GetChild(0).gameObject;
-        Destroy(child);
+        child.SetActive(false);
         this.transform.GetChild(1).gameObject.SetActive(true);
     }
 
