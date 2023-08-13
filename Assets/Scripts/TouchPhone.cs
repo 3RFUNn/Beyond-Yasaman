@@ -10,7 +10,7 @@ public class TouchPhone : MonoBehaviour
 
     private async void LoadNext()
     {
-        await Task.Delay(2000);
+        await Task.Delay(1500);
         SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex + 1);
     }
     private void ClickOn()
