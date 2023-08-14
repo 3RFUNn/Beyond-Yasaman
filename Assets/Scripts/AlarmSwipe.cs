@@ -98,5 +98,6 @@ public class AlarmSwipe : MonoBehaviour
 
         // Check if the collider contains the mouse position
         return collider.OverlapPoint(mouseWorldPosition);
+        
     }
 }
