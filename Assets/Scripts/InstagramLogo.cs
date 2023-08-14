@@ -1,9 +1,12 @@
-using System.Collections;
-using System.Collections.Generic;
+using System.Threading.Tasks;
 using UnityEngine;
 
 public class InstagramLogo : MonoBehaviour
 {
+    [SerializeField] private SpriteRenderer objectColor;
+    [SerializeField] private GameObject[] queue;
+    [SerializeField] private Animator _animator;
+    private static bool open = true;
     // This function is called every frame
     void Update()
     {
@@ -21,16 +24,28 @@ public class InstagramLogo : MonoBehaviour
                 if (hit.collider == GetComponent<Collider2D>())
                 {
                     // Call your custom function here
-                    DoSomething();
+                    OpenApp();
+                    
                 }
             }
         }
     }
 
     // Your custom function
-    void DoSomething()
+    private async void OpenApp()
     {
-        Debug.Log("You clicked on " + gameObject.name);
+        if (objectColor.color.a == 1)
+        {
+            if (open)
+            {
+                _animator.SetTrigger("Open");
+                open = false;
+                await Task.Delay(1500);
+                queue[0].SetActive(false);
+                queue[1].SetActive(true);
+                await Task.Delay(1000);
+            }
+        }
     }
 }
 
