@@ -1,6 +1,7 @@
 using System;
 using System.Collections;
 using UnityEngine;
+using UnityEngine.SceneManagement;
 
 public class LikeButton : MonoBehaviour
 {
@@ -23,14 +24,21 @@ public class LikeButton : MonoBehaviour
                 // Check if the hit collider is this one
                 if (hit.collider == like[number])
                 {
-                    // Call your custom function here
+                    if (number == 3)
+                    {
+                        SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex + 1);
+                    }
+                    else
+                    {
+                        // Call your custom function here
 
-                    _animators[number].SetTrigger("Like");
-                    StartCoroutine(Next());
-
+                        _animators[number].SetTrigger("Like");
+                        StartCoroutine(Next());
+                    }
 
 
                 }
+                
 
             }
         }
