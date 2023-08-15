@@ -2,38 +2,27 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="c45d4963-78e1-467e-8c1a-7532b1586aec" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/Assets/Pictures/Scene5/AppOpen.anim" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Pictures/Scene5/AppOpen.anim.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Pictures/Scene5/Like.anim" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Pictures/Scene5/Like.anim.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Pictures/Scene5/Page.controller" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Pictures/Scene5/Page.controller.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Pictures/Scene5/Phone-Screen.controller" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Pictures/Scene5/Phone-Screen.controller.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Pictures/Scene5/Scroll.anim" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Pictures/Scene5/Scroll.anim.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Pictures/Scene5/heart.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Pictures/Scene5/heart.png.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Pictures/Scene5/like.controller" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Pictures/Scene5/like.controller.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Pictures/Scene5/like.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Pictures/Scene5/like.png.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Pictures/Scene5/page 1.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Pictures/Scene5/page 1.png.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Pictures/Scene5/page 2.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Pictures/Scene5/page 2.png.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Pictures/Scene5/unlike.prefab" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Pictures/Scene5/unlike.prefab.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Scripts/LikeButton.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Scripts/LikeButton.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Pictures/Scene6.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Pictures/Scene6/Asset 1@3x.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Pictures/Scene6/Asset 1@3x.png.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Pictures/Scene6/Desk.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Pictures/Scene6/Desk.png.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Pictures/Scene6/OpenBook.anim" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Pictures/Scene6/OpenBook.anim.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Pictures/Scene6/OpenBook.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Pictures/Scene6/OpenBook.png.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Pictures/Scene6/book.controller" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Pictures/Scene6/book.controller.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Pictures/Scene6/book.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Pictures/Scene6/book.png.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Scenes/S1_Scene12.unity" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Scenes/S1_Scene12.unity.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Scripts/OpenBook.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Scripts/OpenBook.cs.meta" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.Yasaman's Journey/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Yasaman's Journey/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Pictures/Scene1/Main Camera.controller" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Pictures/Scene1/Main Camera.controller" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Pictures/Scene5/icon.controller" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Pictures/Scene5/icon.controller" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Pictures/Scene5/notification.anim" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Pictures/Scene5/notification.anim" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Scenes/S1_Scene11.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/S1_Scene11.unity" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/AlarmSwipe.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/AlarmSwipe.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/BirdSound.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/BirdSound.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/InstagramLogo.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/InstagramLogo.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/LikeButton.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/LikeButton.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/TextMesh Pro/Resources/Fonts &amp; Materials/LiberationSans SDF - Fallback.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/TextMesh Pro/Resources/Fonts &amp; Materials/LiberationSans SDF - Fallback.asset" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/ProjectSettings/EditorBuildSettings.asset" beforeDir="false" afterPath="$PROJECT_DIR$/ProjectSettings/EditorBuildSettings.asset" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -109,6 +98,7 @@
       <workItem from="1691933549519" duration="1717000" />
       <workItem from="1691967754100" duration="4641000" />
       <workItem from="1692029423382" duration="10466000" />
+      <workItem from="1692108490692" duration="4380000" />
     </task>
     <servers />
   </component>
