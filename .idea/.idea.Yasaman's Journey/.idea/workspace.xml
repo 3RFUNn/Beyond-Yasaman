@@ -2,15 +2,32 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="c45d4963-78e1-467e-8c1a-7532b1586aec" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/Assets/Scenes/S1_Scene16.unity" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Scenes/S1_Scene16.unity.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Scripts/LaptopOnOff.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Scripts/LaptopOnOff.cs.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Scripts/TelegramChat.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Pictures/Scene10/Pen.anim" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Pictures/Scene10/Pen.anim.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Pictures/Scene10/Pen.controller" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Pictures/Scene10/Pen.controller.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Pictures/Scene10/Pen2.anim" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Pictures/Scene10/Pen2.anim.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Pictures/Scene11.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Pictures/Scene11/Asset 5@3x.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Pictures/Scene11/Asset 5@3x.png.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Pictures/Scene9/Phone.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Pictures/Scene9/Phone.png.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Scenes/S1_Scene19.unity" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Scenes/S1_Scene19.unity.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Scripts/BedSleep.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Scripts/BookConversation.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Scripts/BookConversation.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Sounds/Pencil-Writing.wav" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Sounds/Pencil-Writing.wav.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Sounds/ringing.wav" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Sounds/ringing.wav.meta" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.Yasaman's Journey/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Yasaman's Journey/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scenes/MainMenu.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/MainMenu.unity" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scenes/MainMenu.unity.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/MainMenu.unity.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scenes/S1_Scene15.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/S1_Scene15.unity" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Pictures/Scene9/PhoneCall.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Pictures/Scene9/PhoneCall.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scenes/S1_Scene16.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/S1_Scene16.unity" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scenes/S1_Scene17.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/S1_Scene17.unity" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/PhoneCallMother.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/PhoneCallMother.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/ProjectSettings/EditorBuildSettings.asset" beforeDir="false" afterPath="$PROJECT_DIR$/ProjectSettings/EditorBuildSettings.asset" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -92,6 +109,9 @@
       <workItem from="1692227838292" duration="1543000" />
       <workItem from="1692375964709" duration="7015000" />
       <workItem from="1692456563830" duration="9241000" />
+      <workItem from="1692550369683" duration="5728000" />
+      <workItem from="1692631812306" duration="8975000" />
+      <workItem from="1692693248654" duration="523000" />
     </task>
     <servers />
   </component>
