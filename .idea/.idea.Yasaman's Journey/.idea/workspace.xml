@@ -2,26 +2,66 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="c45d4963-78e1-467e-8c1a-7532b1586aec" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/Assets/Pictures/Scene11/Book.controller" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Pictures/Scene11/Book.controller.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Pictures/Scene11/GoldenBook.anim" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Pictures/Scene11/GoldenBook.anim.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Pictures/Scene11/Phone.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Pictures/Scene11/Phone.png.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Scenes/S1_Scene20.unity" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Scenes/S1_Scene20.unity.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Sounds/notification.wav" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Sounds/notification.wav.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ProjectSettings/ShaderGraphSettings.asset" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Pictures/Scene11/Board.anim" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Pictures/Scene11/Board.anim.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Pictures/Scene11/Board.controller" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Pictures/Scene11/Board.controller.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Pictures/Scene11/arrow.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Pictures/Scene11/arrow.png.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Pictures/Scene11/b1.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Pictures/Scene11/b1.png.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Pictures/Scene11/b2.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Pictures/Scene11/b2.png.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Pictures/Scene11/b3.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Pictures/Scene11/b3.png.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Pictures/Scene11/b4.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Pictures/Scene11/b4.png.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Pictures/Scene11/b5.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Pictures/Scene11/b5.png.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Pictures/Scene11/b6.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Pictures/Scene11/b6.png.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Pictures/Scene11/space.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Pictures/Scene11/space.png.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Pictures/Scene11/write.anim" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Pictures/Scene11/write.anim.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Pictures/Scene11/y1.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Pictures/Scene11/y1.png.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Pictures/Scene11/y2.controller" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Pictures/Scene11/y2.controller.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Pictures/Scene11/y2.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Pictures/Scene11/y2.png.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Pictures/Scene11/y3.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Pictures/Scene11/y3.png.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Pictures/Scene11/y4.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Pictures/Scene11/y4.png.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Pictures/Scene11/y5.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Pictures/Scene11/y5.png.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Pictures/Scene11/y6.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Pictures/Scene11/y6.png.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Pictures/Scene11/۶.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Pictures/Scene11/۶.png.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Pictures/Scene11/۷.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Pictures/Scene11/۷.png.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Pictures/Scene11/۸.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Pictures/Scene11/۸.png.meta" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.Yasaman's Journey/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Yasaman's Journey/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Pictures/Scene11/Asset 1@3x 1.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Pictures/Scene11/Asset 1@3x 1.png.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scenes/S1_Scene19.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/S1_Scene19.unity" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/BedSleep.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/BedSleep.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Packages/manifest.json" beforeDir="false" afterPath="$PROJECT_DIR$/Packages/manifest.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Packages/packages-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/Packages/packages-lock.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ProjectSettings/EditorBuildSettings.asset" beforeDir="false" afterPath="$PROJECT_DIR$/ProjectSettings/EditorBuildSettings.asset" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ProjectSettings/VFXManager.asset" beforeDir="false" afterPath="$PROJECT_DIR$/ProjectSettings/VFXManager.asset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Pictures/Menus.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Pictures/Scene11/phone.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Pictures/Scene11/phone/1.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Pictures/Scene11/phone/1.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Pictures/Scene11/phone/1x.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Pictures/Scene11/phone/1x/Asset 1.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Pictures/Scene11/phone/1x/Asset 1.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Pictures/Scene11/phone/2.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Pictures/Scene11/phone/2.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Pictures/Scene11/phone/2x.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Pictures/Scene11/phone/2x/Asset 1@2x.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Pictures/Scene11/phone/2x/Asset 1@2x.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Pictures/Scene11/phone/3x.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Pictures/Scene11/phone/3x/Asset 1@3x.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Pictures/Scene11/phone/3x/Asset 1@3x.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scenes/S1_Scene20.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/S1_Scene20.unity" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/BookConversation2.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/BookConversation2.cs" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -51,7 +91,7 @@
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="rider.run.widget.enabled.cache" value="false" />
-    <property name="settings.editor.selected.configurable" value="org.jetbrains.plugins.github.ui.GithubSettingsConfigurable" />
+    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
     <property name="vue.rearranger.settings.migration" value="true" />
   </component>
   <component name="RunManager" selected="Attach to Unity Editor.Attach to Unity Editor">
@@ -106,6 +146,8 @@
       <workItem from="1692631812306" duration="8975000" />
       <workItem from="1692693248654" duration="1552000" />
       <workItem from="1692812244807" duration="5506000" />
+      <workItem from="1692870130366" duration="2346000" />
+      <workItem from="1692894367521" duration="12109000" />
     </task>
     <servers />
   </component>
