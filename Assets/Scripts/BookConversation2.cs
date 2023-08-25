@@ -13,14 +13,15 @@ public class BookConversation2 : MonoBehaviour
     [SerializeField] private Animator _animator;
     [SerializeField] private GameObject[] dialogue;
     [SerializeField] private GameObject[] bookdialogue;
-    [SerializeField] private GameObject board;
+    
     
     void Start()
     {
-        
+        if (SceneManager.GetActiveScene().name.Equals("S1_Scene22"))
+        {
+            _eventIndex = 4;
+        }
     }
-    
-    
     
     
     private async void Event1()
@@ -135,11 +136,17 @@ public class BookConversation2 : MonoBehaviour
                 dialogue[2].SetActive(false);
                 bookdialogue[3].SetActive(false);
                 dialogue[3].SetActive(false);
-                board.SetActive(true);
+                await Task.Delay(2000);
+                SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex + 1);
 
             }
 
         }
+
+    }
+
+    private async void Event3()
+    {
         
     }
 
