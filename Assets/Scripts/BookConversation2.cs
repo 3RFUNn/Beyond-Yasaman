@@ -17,10 +17,8 @@ public class BookConversation2 : MonoBehaviour
     
     void Start()
     {
-        if (SceneManager.GetActiveScene().name.Equals("S1_Scene22"))
-        {
-            _eventIndex = 4;
-        }
+       
+
     }
     
     
@@ -144,12 +142,7 @@ public class BookConversation2 : MonoBehaviour
         }
 
     }
-
-    private async void Event3()
-    {
-        
-    }
-
+    
     // Update is called once per frame
     void Update()
     {
@@ -163,8 +156,9 @@ public class BookConversation2 : MonoBehaviour
                 break;
             case 3 : PenActive2();
                 break;
-            
-            
+
+
+
 
         }
         
