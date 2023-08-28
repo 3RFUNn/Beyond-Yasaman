@@ -26,7 +26,7 @@ public class BookConversation2_2 : MonoBehaviour
     private int dialogueIndex;
 
     // The delay between dialogues in seconds
-    private float delay = 2f;
+    //private float delay = 2f;
 
     // Start is called before the first frame update
     void Start()
