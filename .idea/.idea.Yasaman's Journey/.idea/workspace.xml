@@ -2,11 +2,69 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="c45d4963-78e1-467e-8c1a-7532b1586aec" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/Assets/Scripts/BookConversation2_2.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Scripts/BookConversation2_2.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Pictures/Scene12.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Pictures/Scene12/Asset 1@3x.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Pictures/Scene12/Asset 1@3x.png.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Pictures/Scene13.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Pictures/Scene13/1.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Pictures/Scene13/1.png.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Pictures/Scene13/Glow.anim" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Pictures/Scene13/Glow.anim.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Pictures/Scene13/Pen.anim" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Pictures/Scene13/Pen.anim.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Pictures/Scene13/Pen.controller" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Pictures/Scene13/Pen.controller.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Pictures/Scene13/۱۰.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Pictures/Scene13/۱۰.png.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Pictures/Scene13/۱۱.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Pictures/Scene13/۱۱.png.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Pictures/Scene13/۲.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Pictures/Scene13/۲.png.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Pictures/Scene13/۳.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Pictures/Scene13/۳.png.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Pictures/Scene13/۴.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Pictures/Scene13/۴.png.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Pictures/Scene13/۵.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Pictures/Scene13/۵.png.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Pictures/Scene13/۶.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Pictures/Scene13/۶.png.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Pictures/Scene13/۷.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Pictures/Scene13/۷.png.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Pictures/Scene13/۸.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Pictures/Scene13/۸.png.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Pictures/Scene13/۹.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Pictures/Scene13/۹.png.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Pictures/Scene14.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Pictures/Scene14/BedPhone.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Pictures/Scene14/BedPhone.png.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Pictures/Scene5/Header.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Pictures/Scene5/Header.jpg.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Scenes/S1_Scene24.unity" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Scenes/S1_Scene24.unity.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Scenes/S1_Scene25.unity" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Scenes/S1_Scene25.unity.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Scenes/S1_Scene26.unity" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Scenes/S1_Scene26.unity.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Scenes/S1_Scene27.unity" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Scenes/S1_Scene27.unity.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Scripts/BookConversation3.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Sounds/Pencil.mp3" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Sounds/Pencil.mp3.meta" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.Yasaman's Journey/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Yasaman's Journey/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scenes/S1_Scene22.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/S1_Scene22.unity" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/BookConversation2.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/BookConversation2.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Pictures/Scene4/Fly.anim" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Pictures/Scene4/Fly.anim" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scenes/S1_Scene11.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/S1_Scene11.unity" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scenes/S1_Scene13.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/S1_Scene13.unity" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scenes/S1_Scene16.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/S1_Scene16.unity" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scenes/S1_Scene17.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/S1_Scene17.unity" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scenes/S1_Scene23.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/S1_Scene23.unity" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scenes/S1_Scene8.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/S1_Scene8.unity" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/AlarmSwipe.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/AlarmSwipe.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/BirdSound.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/BirdSound.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/BookConversation2_2.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/BookConversation2_2.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/ClassCloud.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/ClassCloud.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/InstagramLogo.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/InstagramLogo.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/TextMesh Pro/Resources/Fonts &amp; Materials/LiberationSans SDF - Fallback.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/TextMesh Pro/Resources/Fonts &amp; Materials/LiberationSans SDF - Fallback.asset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ProjectSettings/EditorBuildSettings.asset" beforeDir="false" afterPath="$PROJECT_DIR$/ProjectSettings/EditorBuildSettings.asset" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -96,6 +154,10 @@
       <workItem from="1692925051341" duration="1380000" />
       <workItem from="1692976644679" duration="7498000" />
       <workItem from="1692994982469" duration="3950000" />
+      <workItem from="1693053160376" duration="82000" />
+      <workItem from="1693078661250" duration="2239000" />
+      <workItem from="1693161632275" duration="1377000" />
+      <workItem from="1693163271939" duration="4832000" />
     </task>
     <servers />
   </component>
