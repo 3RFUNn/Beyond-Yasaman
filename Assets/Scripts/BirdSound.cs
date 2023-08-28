@@ -13,10 +13,22 @@ public class BirdSound : MonoBehaviour
     }
     private IEnumerator PlayAudioWithDelay()
     {
+       
         while (currentIndex < audioClips.Length)
         {
-            audioSource.clip = audioClips[currentIndex];
-            audioSource.Play();
+            if (currentIndex == 0)
+            {
+                yield return new WaitForSeconds(0.3f);
+                audioSource.clip = audioClips[currentIndex];
+                audioSource.Play();
+            
+            }
+            else
+            {
+                audioSource.clip = audioClips[currentIndex];
+                audioSource.Play();
+            }
+            
             currentIndex++;
 
             yield return new WaitForSeconds(3.0f); // 2 second delay
