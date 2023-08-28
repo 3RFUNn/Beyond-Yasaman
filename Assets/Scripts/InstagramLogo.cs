@@ -43,6 +43,7 @@ public class InstagramLogo : MonoBehaviour
                 await Task.Delay(1500);
                 queue[0].SetActive(false);
                 queue[1].SetActive(true);
+                queue[2].SetActive(true);
                 await Task.Delay(1000);
             }
         }
