@@ -72,6 +72,7 @@ public class ClassCloud : MonoBehaviour
         animator.enabled = false;
         audioSource.clip = cloudAudioSource.clip;
         audioSource.Play();
+        
 
         // Wait for 3 seconds
         yield return new WaitForSeconds(showDuration);
@@ -157,6 +158,7 @@ public class ClassCloud : MonoBehaviour
                 {
                     // Call the zoom and show method for this game object
                     ZoomAndShow(cloud);
+                    cloud.GetComponent<CircleCollider2D>().enabled = false;
                 }
             }
         }
