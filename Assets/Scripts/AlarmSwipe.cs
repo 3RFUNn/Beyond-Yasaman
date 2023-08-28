@@ -8,6 +8,7 @@ public class AlarmSwipe : MonoBehaviour
     public float swipeThreshold = 0.5f;
     [SerializeField] private GameObject _gameObject;
     private bool once = true;
+    private bool snooze = true;
 
     // The initial position of the object
     private Vector3 startPosition;
@@ -27,7 +28,7 @@ public class AlarmSwipe : MonoBehaviour
     void Update()
     {
         // Check if the left mouse button is pressed
-        if (Input.GetMouseButtonDown(0))
+        if (Input.GetMouseButtonDown(0) && snooze)
         {
             // Store the initial position of the mouse
             mouseStartPosition = Input.mousePosition;
@@ -41,7 +42,7 @@ public class AlarmSwipe : MonoBehaviour
         }
 
         // Check if the left mouse button is released
-        if (Input.GetMouseButtonUp(0))
+        if (Input.GetMouseButtonUp(0) && snooze)
         {
             // Set the flag to false
             isDragging = false;
@@ -51,7 +52,7 @@ public class AlarmSwipe : MonoBehaviour
         }
 
         // Check if the object is being dragged
-        if (isDragging)
+        if (isDragging && snooze)
         {
             // Get the current position of the mouse
             Vector3 mousePosition = Input.mousePosition;
@@ -73,9 +74,12 @@ public class AlarmSwipe : MonoBehaviour
             {
                 if (once)
                 {
+                    
                     _gameObject.GetComponent<Animator>().enabled = false;
                     Loadnextscene();
+                    snooze = false;
                     once = false;
+                    
                 }
             }
         }
