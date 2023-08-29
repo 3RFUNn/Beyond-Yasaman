@@ -13,7 +13,7 @@ public class MobileOnOff : MonoBehaviour
 
     private async void PhoneWake()
     {
-        await Task.Delay(4000);
+        await Task.Delay(3000);
 
         GameObject child = this.transform.GetChild(0).gameObject;
         child.SetActive(false);
