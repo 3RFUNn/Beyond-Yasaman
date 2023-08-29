@@ -2,40 +2,13 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="c45d4963-78e1-467e-8c1a-7532b1586aec" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/Assets/Pictures/Scene14/Phone.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Pictures/Scene14/Phone.png.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Pictures/Scene15.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Pictures/Scene15/Library.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Pictures/Scene15/Library.png.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Pictures/Scene15/Off.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Pictures/Scene15/Off.png.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Pictures/Scene15/On.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Pictures/Scene15/On.png.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Pictures/Scene15/Power.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Pictures/Scene15/Power.png.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Prefabs/Instagram.prefab" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Prefabs/Instagram.prefab.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Scenes/S1_Scene28.unity" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Scenes/S1_Scene28.unity.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Scenes/S1_Scene29.unity" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Scenes/S1_Scene29.unity.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Scenes/S1_Scene30.unity" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Scenes/S1_Scene30.unity.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Scenes/S1_Scene31.unity" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Scenes/S1_Scene31.unity.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Scripts/PlaySound.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Scripts/PlaySound.cs.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Sounds/Library.wav" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Sounds/Library.wav.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Pictures/Scene15/Desk.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Pictures/Scene15/Desk.png.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Scenes/S1_Scene32.unity" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Scenes/S1_Scene32.unity.meta" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.Yasaman's Journey/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Yasaman's Journey/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Pictures/Scene14/Asset 1@3x.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Pictures/Scene14/Asset 1@3x.png.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Pictures/Scene14/page 1.png" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Pictures/Scene14/page 1.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Pictures/Scene14/page 2.png" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Pictures/Scene14/page 2.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scenes/S1_Scene1.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/S1_Scene1.unity" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scenes/S1_Scene27.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/S1_Scene27.unity" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/MobileOnOff.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/MobileOnOff.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/TouchPhone.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/TouchPhone.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scenes/S1_Scene31.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/S1_Scene31.unity" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/LaptopController.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/LaptopController.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/ProjectSettings/EditorBuildSettings.asset" beforeDir="false" afterPath="$PROJECT_DIR$/ProjectSettings/EditorBuildSettings.asset" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -131,7 +104,8 @@
       <workItem from="1693161632275" duration="1377000" />
       <workItem from="1693163271939" duration="4832000" />
       <workItem from="1693215076910" duration="2092000" />
-      <workItem from="1693303036310" duration="1487000" />
+      <workItem from="1693303036310" duration="3811000" />
+      <workItem from="1693344130381" duration="1145000" />
     </task>
     <servers />
   </component>
