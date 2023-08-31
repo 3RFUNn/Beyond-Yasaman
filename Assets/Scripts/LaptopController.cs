@@ -19,6 +19,8 @@ public class LaptopController : MonoBehaviour
 
     // The number of times the laptop will turn on and off
     private int loopCount = 3;
+    
+    private bool PowerOff = false;
 
     // The time interval between the laptop turning on and off
     private float interval = 3f;
@@ -56,12 +58,19 @@ public class LaptopController : MonoBehaviour
             // Check if the collider is the power button
             if (collider != null && collider.gameObject == powerButton)
             {
-                // Play the power button animation
-                powerButtonAnimator.Play("Power");
-                powerButton.GetComponent<CircleCollider2D>().enabled = false;
+                if (!PowerOff)
+                {
+                    // Play the power button animation
+                    powerButtonAnimator.Play("Power");
+                    powerButton.GetComponent<CircleCollider2D>().enabled = false;
+                    // Turn on the laptop
+                    TurnOn();
+                }
+                else
+                {
+                    powerButtonAnimator.Play("Power");
 
-                // Turn on the laptop
-                TurnOn();
+                }
             }
         }
     }
@@ -125,7 +134,10 @@ public class LaptopController : MonoBehaviour
         }
         else
         {
-            await Task.Delay(2000);
+            PowerOff = true;
+            powerButton.SetActive(true);
+            powerButton.GetComponent<CircleCollider2D>().enabled = true;
+            await Task.Delay(4000);
             SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex + 1);
         }
 
