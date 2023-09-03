@@ -6,6 +6,7 @@ using UnityEngine;
 public class MobileOnOff : MonoBehaviour
 {
     // Start is called before the first frame update
+    [SerializeField] private AudioSource _audioSource;
     void Start()
     {
         PhoneWake();
@@ -13,8 +14,8 @@ public class MobileOnOff : MonoBehaviour
 
     private async void PhoneWake()
     {
-        await Task.Delay(3000);
-
+        await Task.Delay(2000);
+        _audioSource.Play();
         GameObject child = this.transform.GetChild(0).gameObject;
         child.SetActive(false);
         this.transform.GetChild(1).gameObject.SetActive(true);
