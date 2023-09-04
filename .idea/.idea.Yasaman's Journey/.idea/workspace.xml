@@ -2,12 +2,22 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="c45d4963-78e1-467e-8c1a-7532b1586aec" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/Assets/Pictures/Frame3/Fade.anim" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Pictures/Frame3/Fade.anim.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Pictures/Frame3/Fade.controller" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Pictures/Frame3/Fade.controller.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Pictures/Frame3/Piano.anim" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Pictures/Frame3/Piano.anim.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Pictures/Frame3/Pic4.controller" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Pictures/Frame3/Pic4.controller.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Scenes/S2_Scene7.unity" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Scenes/S2_Scene7.unity.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Scripts/ClockScene.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Scripts/ClockScene.cs.meta" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.Yasaman's Journey/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Yasaman's Journey/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Pictures/Frame3/Hour.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Pictures/Frame3/Hour.png.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Pictures/Frame3/Minute.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Pictures/Frame3/Minute.png.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scenes/S2_Scene3.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/S2_Scene3.unity" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/ClockScene.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/ClockScene.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scenes/S2_Scene6.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/S2_Scene6.unity" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/ClockRotate.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/ClockRotate.cs.meta" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/ProjectSettings/EditorBuildSettings.asset" beforeDir="false" afterPath="$PROJECT_DIR$/ProjectSettings/EditorBuildSettings.asset" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -108,7 +118,7 @@
       <workItem from="1693736374496" duration="8995000" />
       <workItem from="1693829592498" duration="899000" />
       <workItem from="1693841225076" duration="2855000" />
-      <workItem from="1693849973680" duration="6956000" />
+      <workItem from="1693849973680" duration="17512000" />
     </task>
     <servers />
   </component>
