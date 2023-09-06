@@ -6,6 +6,7 @@ TagManager:
   tags:
   - Change
   - Compass
+  - Board
   layers:
   - Default
   - TransparentFX

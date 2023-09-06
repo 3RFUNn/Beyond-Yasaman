@@ -8,13 +8,19 @@ public class LastConversation : MonoBehaviour
     // The pen game object with the glowing and movement animations
     [SerializeField] private GameObject pen;
 
+    // pmi board game object
+    [SerializeField] private GameObject board;
+    
     
     [SerializeField] private AudioSource _audioSource;
+    
+    // animator for camera
+    [SerializeField] private Animator _cameraAnimator;
 
     // The arrays of dialogue game objects for the player and the book
     [SerializeField] private GameObject[] playerDialogues;
     [SerializeField] private GameObject[] bookDialogues;
-    
+
 
     // The index of the current dialogue
     private int dialogueIndex;
@@ -22,19 +28,23 @@ public class LastConversation : MonoBehaviour
     // The number of dialogues
     private int dialogueCount;
 
+    // boolean for board
+    private bool _boardBool;
+    
     // The delay between dialogues in seconds
     [SerializeField] private float dialogueDelay = 3f;
 
     [SerializeField] private float firstDelay;
 
-    
-    
+
+
 
     // Start is called before the first frame update
     void Start()
     {
+        _boardBool = false;
         // Initialize the dialogue index and count
-        dialogueIndex = 7;
+        dialogueIndex = 0;
         dialogueCount = Mathf.Min(playerDialogues.Length, bookDialogues.Length);
 
         // Hide all the dialogue game objects
@@ -59,6 +69,7 @@ public class LastConversation : MonoBehaviour
 
             // Get the pen collider component
             Collider2D penCollider = pen.GetComponent<Collider2D>();
+            
 
             // Check if the mouse position overlaps with the pen collider
             if (penCollider.OverlapPoint(mousePosition))
@@ -113,6 +124,26 @@ public class LastConversation : MonoBehaviour
             // Wait for the dialogue delay
             yield return new WaitForSeconds(dialogueDelay);
 
+            if (bookDialogues[dialogueIndex].tag.Equals("Board"))
+            {
+                _cameraAnimator.SetTrigger("Right");
+                yield return new WaitForSeconds(2);
+                board.SetActive(true);
+                yield return new WaitForSeconds(5);
+                playerDialogues[dialogueIndex].SetActive(false);
+                Color color = bookDialogues[dialogueIndex].GetComponent<SpriteRenderer>().color;
+                color.a *= 0;
+                bookDialogues[dialogueIndex].GetComponent<SpriteRenderer>().color = color;
+                _cameraAnimator.SetTrigger("Left");
+                yield return new WaitForSeconds(2.5f);
+                bookDialogues[dialogueIndex].transform.GetChild(0).gameObject.SetActive(true);
+                yield return new WaitForSeconds(4);
+                // Call the next scene function
+                NextScene(); 
+                yield break;
+
+            }
+            
             // Increment the dialogue index
             dialogueIndex++;
 
@@ -122,17 +153,6 @@ public class LastConversation : MonoBehaviour
             pen.GetComponent<Animator>().SetBool("Write", false);
             pen.GetComponent<Collider2D>().enabled = true;
         }
-        else
-        {
-            playerDialogues[dialogueIndex].SetActive(true);
-
-            // Wait for the dialogue delay
-            yield return new WaitForSeconds(5);
-            
-            // Call the next scene function
-            NextScene();
-        }
-
     }
     
 
