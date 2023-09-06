@@ -23,7 +23,9 @@ public class BookConversation3 : MonoBehaviour
     private int dialogueCount;
 
     // The delay between dialogues in seconds
-    public float dialogueDelay = 3f;
+    [SerializeField] private float dialogueDelay = 3f;
+
+    [SerializeField] private float firstDelay;
 
     
     
@@ -86,6 +88,9 @@ public class BookConversation3 : MonoBehaviour
                 playerDialogues[dialogueIndex - 1].SetActive(false);
             }
 
+            // initial delay of player dialogue
+            yield return new WaitForSeconds(firstDelay);
+            
             playerDialogues[dialogueIndex].SetActive(true);
 
             // Wait for the dialogue delay
