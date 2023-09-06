@@ -25,6 +25,9 @@ public class PianoGame : MonoBehaviour
 
     // The array of game objects for the arrows
     [SerializeField] private GameObject[] arrows;
+    
+    // Delay for invoking a function
+    [SerializeField] private float delay;
 
     // The index of the current key to click
     private int currentKey = 0;
@@ -94,7 +97,7 @@ public class PianoGame : MonoBehaviour
         // Play the main music clip
         audioSource.PlayOneShot(mainMusic);
         // Invoke the LoadNextScene method after the main music has finished playing
-        Invoke("LoadNextScene", 15f);
+        Invoke("LoadNextScene", delay);
     }
     
     // Load the next scene
