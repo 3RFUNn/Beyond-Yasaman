@@ -2,24 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="c45d4963-78e1-467e-8c1a-7532b1586aec" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/Assets/Pictures/Frame5/Stable.anim" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Pictures/Frame5/Stable.anim.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Pictures/Frame5/Write.anim" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Pictures/Frame5/Write.anim.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Pictures/Frame5/Write.controller" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Pictures/Frame5/Write.controller.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Scenes/S2_Scene10.unity" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Scenes/S2_Scene10.unity.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Sounds/WritingChalk.wav" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Sounds/WritingChalk.wav.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Scripts/LastConversation.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Scripts/LastConversation.cs.meta" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.Yasaman's Journey/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Yasaman's Journey/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Pictures/Season1/Scene13/Pen.controller" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Pictures/Season1/Scene13/Pen.controller" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scenes/S2_Scene5.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/S2_Scene5.unity" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scenes/S2_Scene7.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/S2_Scene7.unity" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scenes/Season1/S1_Scene36.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/Season1/S1_Scene36.unity" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Season1/BookConversation3.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Season1/BookConversation3.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Season1/PianoGame.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Season1/PianoGame.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ProjectSettings/EditorBuildSettings.asset" beforeDir="false" afterPath="$PROJECT_DIR$/ProjectSettings/EditorBuildSettings.asset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scenes/S2_Scene10.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/S2_Scene10.unity" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ProjectSettings/TagManager.asset" beforeDir="false" afterPath="$PROJECT_DIR$/ProjectSettings/TagManager.asset" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -122,7 +109,7 @@
       <workItem from="1693849973680" duration="17512000" />
       <workItem from="1693903320086" duration="1287000" />
       <workItem from="1693920322433" duration="1364000" />
-      <workItem from="1694000046240" duration="693000" />
+      <workItem from="1694000046240" duration="3708000" />
     </task>
     <servers />
   </component>
