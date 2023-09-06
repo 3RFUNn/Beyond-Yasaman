@@ -400,6 +400,7 @@ MonoBehaviour:
   - {fileID: 1070899897}
   - {fileID: 1387088824}
   - {fileID: 640451989}
+  delay: 15
 --- !u!1 &488843592
 GameObject:
   m_ObjectHideFlags: 0
