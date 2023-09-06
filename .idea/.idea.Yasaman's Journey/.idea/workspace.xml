@@ -2,16 +2,50 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="c45d4963-78e1-467e-8c1a-7532b1586aec" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/Assets/Scripts/LastConversation.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Scripts/LastConversation.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Pictures/Frame5/Board.anim" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Pictures/Frame5/Board.anim.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Pictures/Frame5/Board.controller" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Pictures/Frame5/Board.controller.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Pictures/Frame5/GoLeft.anim" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Pictures/Frame5/GoLeft.anim.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Pictures/Frame5/GoRight.anim" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Pictures/Frame5/GoRight.anim.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Pictures/Frame5/Main Camera.controller" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Pictures/Frame5/Main Camera.controller.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Pictures/Frame6.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Pictures/Frame6/Desk.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Pictures/Frame6/Desk.png.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Pictures/Frame6/LampDesk.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Pictures/Frame6/LampDesk.png.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Pictures/Frame6/Main Camera.controller" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Pictures/Frame6/Main Camera.controller.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Pictures/Frame6/Zoom.anim" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Pictures/Frame6/Zoom.anim.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Scenes/S2_scene11.unity" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Scenes/S2_scene11.unity.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Scripts/Clock.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Scripts/Clock.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Sounds/Appear.wav" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Sounds/Appear.wav.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Sounds/FlorenceThink.mp3" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Sounds/FlorenceThink.mp3.meta" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.Yasaman's Journey/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Yasaman's Journey/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Scenes/S2_Scene10.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/S2_Scene10.unity" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/LastConversation.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/LastConversation.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/ProjectSettings/TagManager.asset" beforeDir="false" afterPath="$PROJECT_DIR$/ProjectSettings/TagManager.asset" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="GitSEFilterConfiguration">
+    <file-type-list>
+      <filtered-out-file-type name="LOCAL_BRANCH" />
+      <filtered-out-file-type name="REMOTE_BRANCH" />
+      <filtered-out-file-type name="TAG" />
+      <filtered-out-file-type name="COMMIT_BY_MESSAGE" />
+    </file-type-list>
   </component>
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
@@ -109,7 +143,7 @@
       <workItem from="1693849973680" duration="17512000" />
       <workItem from="1693903320086" duration="1287000" />
       <workItem from="1693920322433" duration="1364000" />
-      <workItem from="1694000046240" duration="3708000" />
+      <workItem from="1694000046240" duration="14694000" />
     </task>
     <servers />
   </component>
