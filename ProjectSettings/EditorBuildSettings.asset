@@ -120,30 +120,39 @@ EditorBuildSettings:
     path: Assets/Scenes/Season1/S1_Scene37.unity
     guid: 85293c86be08de9469e9658d74bde73e
   - enabled: 1
-    path: Assets/Scenes/S2_Scene1.unity
+    path: Assets/Scenes/Season2/S2_Scene1.unity
     guid: 904b4a708c1a04e40adea44652edbfa4
   - enabled: 1
-    path: Assets/Scenes/S2_Scene2.unity
+    path: Assets/Scenes/Season2/S2_Scene2.unity
     guid: 02aa7f8de2f7f8846a527c69c6d9edc7
   - enabled: 1
-    path: Assets/Scenes/S2_Scene3.unity
+    path: Assets/Scenes/Season2/S2_Scene3.unity
     guid: c3909d01493b6f4479b2770d83e36d91
   - enabled: 1
-    path: Assets/Scenes/S2_Scene4.unity
+    path: Assets/Scenes/Season2/S2_Scene4.unity
     guid: 12f668fab364366498ebdff35fce3301
-  - enabled: 1
+  - enabled: 0
     path: Assets/Scenes/S2_Scene5.unity
     guid: 5afc2de3d73cfaf488c46862570840aa
   - enabled: 1
-    path: Assets/Scenes/S2_Scene6.unity
+    path: Assets/Scenes/Season2/S2_Scene6.unity
     guid: 03803faa1870b4942b14475ab0186536
   - enabled: 1
-    path: Assets/Scenes/S2_Scene7.unity
+    path: Assets/Scenes/Season2/S2_Scene7.unity
     guid: 87573811dc5d702469f40e95d3640201
   - enabled: 1
-    path: Assets/Scenes/S2_Scene8.unity
+    path: Assets/Scenes/Season2/S2_Scene8.unity
     guid: 164ab2672c600f44ab4ff7c1c04e15b1
   - enabled: 1
-    path: Assets/Scenes/S2_Scene9.unity
+    path: Assets/Scenes/Season2/S2_Scene9.unity
     guid: fe99d44a2328c4542a84606342048f21
+  - enabled: 1
+    path: Assets/Scenes/Season2/S2_Scene10.unity
+    guid: 3b3faf81a0875b2439d6dea71ecd3361
+  - enabled: 1
+    path: Assets/Scenes/Season2/S2_scene11.unity
+    guid: 981a1a285092a404aa7978f8049eb6a6
+  - enabled: 1
+    path: Assets/Scenes/S3_Scene1.unity
+    guid: 68dadbcf6da9b6d4e8c944cebaf48b73
   m_configObjects: {}
