@@ -618,7 +618,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 5a88e7c5d30575047aefe90e0d99e7bb, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  wait: 10000
+  wait: 11000
 --- !u!1 &1924777633
 GameObject:
   m_ObjectHideFlags: 0
