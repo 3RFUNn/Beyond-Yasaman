@@ -11,10 +11,19 @@ public class Menu : MonoBehaviour
 
     }
 
-    public void LoadNext()
+    public void Season1()
     {
         SceneManager.LoadScene("S1_Scene1");
     }
+    public void Season2()
+    {
+        SceneManager.LoadScene("S2_Scene1");
+    }
+    public void Season3()
+    {
+        SceneManager.LoadScene("S3_Scene1");
+    }
+    
 
     // Update is called once per frame
     void Update()
