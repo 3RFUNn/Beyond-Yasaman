@@ -6,6 +6,7 @@ public class BirdSound : MonoBehaviour
     private AudioSource audioSource;
     private int currentIndex = 0;
 
+
     private void Start()
     {
         audioSource = GetComponent<AudioSource>();
@@ -31,7 +32,7 @@ public class BirdSound : MonoBehaviour
             
             currentIndex++;
 
-            yield return new WaitForSeconds(3.0f); // 2 second delay
+            yield return new WaitForSeconds(3.0f); 
         }
     }
 }
