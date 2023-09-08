@@ -1,6 +1,8 @@
+using System;
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.SceneManagement;
 
 public class CompassRotator : MonoBehaviour
 {
@@ -19,6 +21,14 @@ public class CompassRotator : MonoBehaviour
 
     // The flag to indicate if the touch is inside the circle collider
     private bool touchInside;
+
+    private void Start()
+    {
+        if (SceneManager.GetActiveScene().name.Equals("S3_Scene5"))
+        {
+            touchAngle = 90f;
+        }
+    }
 
     // Update is called once per frame
     void Update()
@@ -42,8 +52,10 @@ public class CompassRotator : MonoBehaviour
                     if (touchInside)
                     {
                         touchCurrent = Camera.main.ScreenToWorldPoint(touch.position);
-                        touchAngle = Mathf.Atan2(touchCurrent.y - transform.position.y, touchCurrent.x - transform.position.x) * Mathf.Rad2Deg;
+                        touchAngle = Mathf.Atan2(touchCurrent.y - transform.position.y,
+                            touchCurrent.x - transform.position.x) * Mathf.Rad2Deg;
                     }
+
                     break;
                 // When the touch ends, reset the flag
                 case TouchPhase.Ended:
@@ -51,9 +63,10 @@ public class CompassRotator : MonoBehaviour
                     break;
             }
         }
-
         // Rotate the game object to face the touch position smoothly
-        transform.rotation = Quaternion.RotateTowards(transform.rotation, Quaternion.Euler(0f, 0f, touchAngle - 90f), rotateSpeed * Time.deltaTime);
+            transform.rotation = Quaternion.RotateTowards(transform.rotation,
+                Quaternion.Euler(0f, 0f, touchAngle - 90f), rotateSpeed * Time.deltaTime);
+            
     }
 }
 
