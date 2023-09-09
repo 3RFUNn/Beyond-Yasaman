@@ -170,4 +170,13 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/S3_Scene6.unity
     guid: 24e916bae668d9147bfa23958504c9b5
+  - enabled: 1
+    path: Assets/Scenes/S3_Scene7.unity
+    guid: 78d0a90f16ca7cc44b566f8bb9d80a83
+  - enabled: 1
+    path: Assets/Scenes/S3_Scene8.unity
+    guid: 3dbed3e0e623c2e448768fc60c2f5a3e
+  - enabled: 1
+    path: Assets/Scenes/S3_Scene9.unity
+    guid: 5275e343a5c70de4e908ffaf7e0606e0
   m_configObjects: {}
