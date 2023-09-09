@@ -23,6 +23,11 @@ public class Menu : MonoBehaviour
     {
         SceneManager.LoadScene("S3_Scene1");
     }
+
+    public void MainMenu()
+    {
+        SceneManager.LoadScene("MainMenu");
+    }
     
 
     // Update is called once per frame
