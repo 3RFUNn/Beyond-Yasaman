@@ -2,66 +2,53 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="c45d4963-78e1-467e-8c1a-7532b1586aec" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/Assets/Pictures/Season3/Frame2/Asset 1@3x.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Pictures/Season3/Frame2/Asset 1@3x.png.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Pictures/Season3/Frame2/Cart.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Pictures/Season3/Frame2/Cart.png.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Pictures/Season3/Frame2/End.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Pictures/Season3/Frame2/End.png.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Pictures/Season3/Frame2/Finished.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Pictures/Season3/Frame2/Finished.png.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Pictures/Season3/Frame2/Hand.anim" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Pictures/Season3/Frame2/Hand.anim.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Pictures/Season3/Frame2/Hand.controller" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Pictures/Season3/Frame2/Hand.controller.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Pictures/Season3/Frame2/Hand.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Pictures/Season3/Frame2/Hand.png.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Pictures/Season3/Frame2/Park.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Pictures/Season3/Frame2/Park.png.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Pictures/Season3/Frame2/Phone.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Pictures/Season3/Frame2/Phone.png.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Pictures/Season3/Frame2/Shop.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Pictures/Season3/Frame2/Shop.png.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Pictures/Season3/Frame2/ShopAsli.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Pictures/Season3/Frame2/ShopAsli.png.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Pictures/Season3/Frame3.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Pictures/Season3/Frame3/B1.controller" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Pictures/Season3/Frame3/B1.controller.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Pictures/Season3/Frame3/Button.anim" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Pictures/Season3/Frame3/Button.anim.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Pictures/Season3/Frame3/Compass-season 3.2.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Pictures/Season3/Frame3/Compass-season 3.2.png.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Pictures/Season3/Frame3/Main Camera.controller" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Pictures/Season3/Frame3/Main Camera.controller.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Pictures/Season3/Frame3/ZoomClass.anim" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Pictures/Season3/Frame3/ZoomClass.anim.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Prefabs/Season3.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Prefabs/Season3/B1.prefab" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Prefabs/Season3/B1.prefab.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Prefabs/Season3/purchase.anim" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Prefabs/Season3/purchase.anim.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Scenes/S3_Scene3.unity" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Scenes/S3_Scene3.unity.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Scenes/S3_Scene4.unity" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Scenes/S3_Scene4.unity.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Scenes/S3_Scene5.unity" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Scenes/S3_Scene5.unity.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Scripts/ParkPhone.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Scripts/ParkPhone.cs.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Sounds/KidsPark.wav" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Sounds/KidsPark.wav.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Sounds/ParkBird.wav" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Sounds/ParkBird.wav.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Sounds/SideWalk.mp3" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Sounds/SideWalk.mp3.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Pictures/Season3/Frame2/End.controller" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Pictures/Season3/Frame2/End.controller.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Pictures/Season3/Frame2/EndButton.anim" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Pictures/Season3/Frame2/EndButton.anim.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Pictures/Season3/Frame2/Nahayi.anim" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Pictures/Season3/Frame2/Nahayi.anim.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Pictures/Season3/Frame4.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Pictures/Season3/Frame4/1.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Pictures/Season3/Frame4/1.png.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Pictures/Season3/Frame4/2.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Pictures/Season3/Frame4/2.png.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Pictures/Season3/Frame4/3.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Pictures/Season3/Frame4/3.png.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Pictures/Season3/Frame4/4.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Pictures/Season3/Frame4/4.png.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Pictures/Season3/Frame4/5.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Pictures/Season3/Frame4/5.png.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Pictures/Season3/Frame4/ArtClass.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Pictures/Season3/Frame4/ArtClass.png.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Pictures/Season3/Frame4/Bubble.anim" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Pictures/Season3/Frame4/Bubble.anim.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Pictures/Season3/Frame4/Bubble.controller" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Pictures/Season3/Frame4/Bubble.controller.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Pictures/Season3/Frame4/Bubble.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Pictures/Season3/Frame4/Bubble.png.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Pictures/Season3/Frame4/Bubble2.anim" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Pictures/Season3/Frame4/Bubble2.anim.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Pictures/Season3/Frame4/Bubble2.controller" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Pictures/Season3/Frame4/Bubble2.controller.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Pictures/Season3/Frame4/Ticket.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Pictures/Season3/Frame4/Ticket.png.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Scenes/S3_Scene6.unity" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Scenes/S3_Scene6.unity.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Scripts/ArtClass.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Scripts/ArtClass.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Sounds/ArtGalley.mp3" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Sounds/ArtGalley.mp3.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Sounds/Button.wav" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Sounds/Button.wav.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Sounds/FlorenceArt.mp3" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Sounds/FlorenceArt.mp3.meta" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.Yasaman's Journey/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Yasaman's Journey/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scenes/S1_Scene5.unity" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scenes/S1_Scene5.unity.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scenes/S3_Scene1.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/S3_Scene1.unity" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scenes/S3_Scene1.unity.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/S3_Scene1.unity.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Season1/BirdSound.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Season1/BirdSound.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Season1/CompassRotator.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Season1/CompassRotator.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ProjectSettings/EditorBuildSettings.asset" beforeDir="false" afterPath="$PROJECT_DIR$/ProjectSettings/EditorBuildSettings.asset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Pictures/Season3/Frame3/B1.controller" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Pictures/Season3/Frame3/B1.controller" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/Season3/B1.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefabs/Season3/B1.prefab" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scenes/S3_Scene4.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/S3_Scene4.unity" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/BookPurchase.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/BookPurchase.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/TextMesh Pro/Resources/Fonts &amp; Materials/LiberationSans SDF - Fallback.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/TextMesh Pro/Resources/Fonts &amp; Materials/LiberationSans SDF - Fallback.asset" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -174,7 +161,8 @@
       <workItem from="1693920322433" duration="1364000" />
       <workItem from="1694000046240" duration="15339000" />
       <workItem from="1694028631386" duration="123000" />
-      <workItem from="1694162094220" duration="9241000" />
+      <workItem from="1694162094220" duration="11169000" />
+      <workItem from="1694248823365" duration="3970000" />
     </task>
     <servers />
   </component>
