@@ -153,36 +153,39 @@ EditorBuildSettings:
     path: Assets/Scenes/Season2/S2_scene11.unity
     guid: 981a1a285092a404aa7978f8049eb6a6
   - enabled: 1
-    path: Assets/Scenes/S3_Scene1.unity
+    path: Assets/Scenes/Season3/S3_Scene1.unity
     guid: 8ee1b701de2745a4fa7eb79f51196058
   - enabled: 1
-    path: Assets/Scenes/S3_Scene2.unity
+    path: Assets/Scenes/Season3/S3_Scene2.unity
     guid: f5fde2d96dbfb3548903b993f5d8d902
   - enabled: 1
-    path: Assets/Scenes/S3_Scene3.unity
+    path: Assets/Scenes/Season3/S3_Scene3.unity
     guid: 478eaafb2a015bf4d834c4a1c7f4f007
   - enabled: 1
-    path: Assets/Scenes/S3_Scene4.unity
+    path: Assets/Scenes/Season3/S3_Scene4.unity
     guid: c882adafb97502042b8f9855bf481c43
   - enabled: 1
-    path: Assets/Scenes/S3_Scene5.unity
+    path: Assets/Scenes/Season3/S3_Scene5.unity
     guid: 5c9f7bb45a5cdcf44b71c04998de72e8
   - enabled: 1
-    path: Assets/Scenes/S3_Scene6.unity
+    path: Assets/Scenes/Season3/S3_Scene6.unity
     guid: 24e916bae668d9147bfa23958504c9b5
   - enabled: 1
     path: Assets/Scenes/S3_Scene7.unity
     guid: 78d0a90f16ca7cc44b566f8bb9d80a83
   - enabled: 1
-    path: Assets/Scenes/S3_Scene8.unity
+    path: Assets/Scenes/Season3/S3_Scene8.unity
     guid: 3dbed3e0e623c2e448768fc60c2f5a3e
   - enabled: 1
-    path: Assets/Scenes/S3_Scene9.unity
+    path: Assets/Scenes/Season3/S3_Scene9.unity
     guid: 5275e343a5c70de4e908ffaf7e0606e0
   - enabled: 1
-    path: Assets/Scenes/S3_Scene10.unity
+    path: Assets/Scenes/Season3/S3_Scene10.unity
     guid: 4f6d8ebc3f89d024a93b44d316d61279
   - enabled: 1
-    path: Assets/Scenes/S3_Scene11.unity
+    path: Assets/Scenes/Season3/S3_Scene11.unity
     guid: 574eb4fe9e1133f4da325c0ef0c7451b
+  - enabled: 1
+    path: Assets/Scenes/Season3/S3_Scene12.unity
+    guid: ae43c1d85dd0d1a439e515247d2ef980
   m_configObjects: {}
