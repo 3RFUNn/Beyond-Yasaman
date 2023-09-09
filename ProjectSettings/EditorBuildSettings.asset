@@ -179,4 +179,10 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/S3_Scene9.unity
     guid: 5275e343a5c70de4e908ffaf7e0606e0
+  - enabled: 1
+    path: Assets/Scenes/S3_Scene10.unity
+    guid: 4f6d8ebc3f89d024a93b44d316d61279
+  - enabled: 1
+    path: Assets/Scenes/S3_Scene11.unity
+    guid: 574eb4fe9e1133f4da325c0ef0c7451b
   m_configObjects: {}
