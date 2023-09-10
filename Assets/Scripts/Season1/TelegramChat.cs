@@ -9,6 +9,8 @@ public class TelegramChat : MonoBehaviour
 {
     [SerializeField] private GameObject logo;
 
+    [SerializeField] private Collider2D logoCollider;
+
 // Reference to the messenger app that is initially deactivated
     [SerializeField] private GameObject[] app;
     
@@ -58,15 +60,14 @@ public class TelegramChat : MonoBehaviour
         // If the logo has not been clicked, check for mouse input
         if (!logoClicked)
         {
-            // If the left mouse button is pressed, check if it hits the logo
             if (Input.GetMouseButtonDown(0))
             {
                 // Get the mouse position in world coordinates
-                Ray ray = Camera.main.ScreenPointToRay(Input.mousePosition);
-                RaycastHit2D hit = Physics2D.Raycast(ray.origin, ray.direction);
+                Vector2 mousePosition = Camera.main.ScreenToWorldPoint(Input.mousePosition);
+                
 
-                // If the ray hit something, check if it was the logo
-                if (hit.collider != null && hit.collider == logo.GetComponent<Collider2D>())
+                // Check if the mouse position overlaps with the pen collider
+                if (logoCollider.OverlapPoint(mousePosition))
                 {
                     // Set the logoClicked flag to true
                     logoClicked = true;
@@ -82,9 +83,9 @@ public class TelegramChat : MonoBehaviour
                     // Show the welcome text
                     welcomeText.SetActive(true);
                     Delay(3000,welcomeText,chatBar);
-                    
                 }
             }
+            
         }
         else if (!chatClicked) // If the logo has been clicked but not the chat, check for mouse input
         {
