@@ -130,7 +130,7 @@ public class LibraryContacts : MonoBehaviour
     {
         // Wait for the specified number of seconds
         yield return new WaitForSeconds(seconds);
-
+        gameObject.GetComponent<Collider2D>().enabled = false;
         // Change the color and transparency of the game object to dark and less opaque
         Color color = gameObject.GetComponent<SpriteRenderer>().color;
         color.r *= 0.5f; // Reduce red component by half
@@ -138,6 +138,7 @@ public class LibraryContacts : MonoBehaviour
         color.b *= 0.5f; // Reduce blue component by half
         color.a *= 0.8f; // Reduce alpha component by 20%
         gameObject.GetComponent<SpriteRenderer>().color = color;
+        
     }
 
     private async void StartNewScene()
