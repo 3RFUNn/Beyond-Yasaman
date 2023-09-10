@@ -91,6 +91,8 @@ public class DragAndDropPuzzle : MonoBehaviour
                 // Snap the game object to the center of the target square
                 transform.position = targetSquare.position;
 
+                collider.enabled = false;
+
                 
 
                 // Set the placed flag to true
@@ -127,7 +129,7 @@ public class DragAndDropPuzzle : MonoBehaviour
         // If all three puzzle pieces are placed correctly, show a message and play a sound.
         if (CheckPuzzle())
         {
-            Debug.Log("Complete");
+            
             _audioSource.Play();
             await Task.Delay(3000);
             SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex + 1);
