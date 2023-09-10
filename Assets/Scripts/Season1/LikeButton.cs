@@ -8,45 +8,37 @@ public class LikeButton : MonoBehaviour
     [SerializeField] private Collider2D[] like;
     [SerializeField] private Animator[] _animators;
     private static int number = 0;
-    
+
 
     void Update()
     {
         if (Input.GetMouseButtonDown(0))
         {
-            // Cast a ray from the camera to the mouse position
-            Ray ray = Camera.main.ScreenPointToRay(Input.mousePosition);
-            RaycastHit2D hit = Physics2D.Raycast(ray.origin, ray.direction);
+            // Get the mouse position in world coordinates
+            Vector2 mousePosition = Camera.main.ScreenToWorldPoint(Input.mousePosition);
 
-            // Check if the ray hit a collider
-            if (hit.collider != null)
+
+            // Check if the mouse position overlaps with the pen collider
+            if (like[number].OverlapPoint(mousePosition))
             {
-                // Check if the hit collider is this one
-                if (hit.collider == like[number])
+                if (number == 3)
                 {
-                    if (number == 3)
-                    {
-                        SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex + 1);
-                    }
-                    else
-                    {
-                        // Call your custom function here
-
-                        _animators[number].SetTrigger("Like");
-                        StartCoroutine(Next());
-                    }
-
-
+                    SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex + 1);
                 }
-                
+                else
+                {
+                    // Call your custom function here
+
+                    _animators[number].SetTrigger("Like");
+                    StartCoroutine(Next());
+                }
 
             }
         }
-        
-
     }
 
-    private IEnumerator Next()
+
+private IEnumerator Next()
     {
         yield return new WaitForSeconds(1);
         like[number].enabled = false;
