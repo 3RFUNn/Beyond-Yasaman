@@ -2,8 +2,48 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="c45d4963-78e1-467e-8c1a-7532b1586aec" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/Assets/Scripts/AnimationSkipScene.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Scripts/AnimationSkipScene.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Extras.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Extras/BedroomBookZoom.anim" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Extras/BedroomBookZoom.anim.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Extras/BedroomZoom.anim" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Extras/BedroomZoom.anim.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Extras/Main Camera 1.controller" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Extras/Main Camera 1.controller.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Extras/Main Camera.controller" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Extras/Main Camera.controller.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Pictures/Season1/Scene11/Bedroom.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Pictures/Season1/Scene11/Bedroom.png.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Pictures/Season1/Scene11/Main Camera.controller" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Pictures/Season1/Scene11/Main Camera.controller.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Pictures/Season1/Scene11/PhoneBedroomZoom.anim" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Pictures/Season1/Scene11/PhoneBedroomZoom.anim.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Prefabs/Season1/outside.prefab" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Prefabs/Season1/outside.prefab.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Scenes/Season1/S1_Scene10_1.unity" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Scenes/Season1/S1_Scene10_1.unity.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Scenes/Season1/S1_Scene11_1.unity" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Scenes/Season1/S1_Scene11_1.unity.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.Yasaman's Journey/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Yasaman's Journey/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Pictures/Season1/Scene11/Asset 5@3x.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Pictures/Season1/Scene11/Asset 5@3x.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Pictures/Season2/Frame3/Clock.anim" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Pictures/Season2/Frame3/Clock.anim" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scenes/Season1/S1_Scene11.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/Season1/S1_Scene11.unity" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scenes/Season1/S1_Scene17.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/Season1/S1_Scene17.unity" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scenes/Season1/S1_Scene2.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/Season1/S1_Scene2.unity" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scenes/Season1/S1_Scene30.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/Season1/S1_Scene30.unity" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scenes/Season1/S1_Scene4.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/Season1/S1_Scene4.unity" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scenes/Season1/S1_Scene5.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/Season1/S1_Scene5.unity" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scenes/Season1/S1_Scene6.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/Season1/S1_Scene6.unity" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scenes/Season1/S1_Scene8.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/Season1/S1_Scene8.unity" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scenes/Season1/S1_Scene9.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/Season1/S1_Scene9.unity" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scenes/Season2/S2_Scene1.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/Season2/S2_Scene1.unity" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scenes/Season2/S2_Scene7.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/Season2/S2_Scene7.unity" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scenes/Season2/S2_Scene8.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/Season2/S2_Scene8.unity" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scenes/Season3/S3_Scene1.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/Season3/S3_Scene1.unity" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scenes/Season3/S3_Scene11.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/Season3/S3_Scene11.unity" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/AnimationSkipScene.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/AnimationSkipScene.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Season2/DeskBookGlow.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Season2/DeskBookGlow.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ProjectSettings/EditorBuildSettings.asset" beforeDir="false" afterPath="$PROJECT_DIR$/ProjectSettings/EditorBuildSettings.asset" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -124,6 +164,7 @@
       <workItem from="1694340591205" duration="988000" />
       <workItem from="1694346565272" duration="767000" />
       <workItem from="1695066362469" duration="824000" />
+      <workItem from="1695237049292" duration="2807000" />
     </task>
     <servers />
   </component>
