@@ -2,20 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="c45d4963-78e1-467e-8c1a-7532b1586aec" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/.idea.Yasaman's Journey/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Yasaman's Journey/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scenes/Season1/S1_Scene16.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/Season1/S1_Scene16.unity" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scenes/Season1/S1_Scene19.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/Season1/S1_Scene19.unity" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scenes/Season1/S1_Scene21.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/Season1/S1_Scene21.unity" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scenes/Season1/S1_Scene28.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/Season1/S1_Scene28.unity" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scenes/Season3/S3_Scene12.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/Season3/S3_Scene12.unity" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scenes/Season3/S3_Scene4.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/Season3/S3_Scene4.unity" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Season1/DragAndDropPuzzle.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Season1/DragAndDropPuzzle.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Season1/LibraryContacts.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Season1/LibraryContacts.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Season1/LikeButton.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Season1/LikeButton.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Season1/TelegramChat.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Season1/TelegramChat.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Season3/OpenWindow.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Season3/OpenWindow.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ProjectSettings/EditorBuildSettings.asset" beforeDir="false" afterPath="$PROJECT_DIR$/ProjectSettings/EditorBuildSettings.asset" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ProjectSettings/ProjectSettings.asset" beforeDir="false" afterPath="$PROJECT_DIR$/ProjectSettings/ProjectSettings.asset" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Scripts/AnimationSkipScene.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Scripts/AnimationSkipScene.cs.meta" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -135,6 +123,7 @@
       <workItem from="1694337368441" duration="1391000" />
       <workItem from="1694340591205" duration="988000" />
       <workItem from="1694346565272" duration="767000" />
+      <workItem from="1695066362469" duration="824000" />
     </task>
     <servers />
   </component>
