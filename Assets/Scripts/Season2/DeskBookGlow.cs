@@ -9,6 +9,8 @@ public class DeskBookGlow : MonoBehaviour
     [SerializeField] private Animator _animator;
     // collider of the book
     [SerializeField] private Collider2D _book;
+
+    [SerializeField] private Animator _camera;
     
     // Start is called before the first frame update
     void Start()
@@ -44,6 +46,8 @@ public class DeskBookGlow : MonoBehaviour
 
     private IEnumerator BookGlow()
     {
+        yield return new WaitForSeconds(1);
+        _camera.SetTrigger("Animation");
         yield return new WaitForSeconds(2);
         _animator.enabled = true;
         _book.enabled = true;

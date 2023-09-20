@@ -39,8 +39,14 @@ EditorBuildSettings:
     path: Assets/Scenes/Season1/S1_Scene10.unity
     guid: 7c8bd9ee09aa62c46a685e1dd8f6d636
   - enabled: 1
+    path: Assets/Scenes/Season1/S1_Scene10_1.unity
+    guid: 353e438abaa53e9439fe997b45cffad3
+  - enabled: 1
     path: Assets/Scenes/Season1/S1_Scene11.unity
     guid: 01b34169af230c741a5324643fac37e0
+  - enabled: 1
+    path: Assets/Scenes/Season1/S1_Scene11_1.unity
+    guid: 8b2471a91ae13ab40a7040032579af44
   - enabled: 1
     path: Assets/Scenes/Season1/S1_Scene12.unity
     guid: 2b63c41e9788c194d970013467140806
@@ -59,6 +65,9 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/Season1/S1_Scene17.unity
     guid: 0c5051a5f40c0624fa6c3c58bd49bfe0
+  - enabled: 1
+    path: Assets/Scenes/Season1/S1_Scene17_1.unity
+    guid: a93d8b3b63daf144bb16685f8acfb985
   - enabled: 1
     path: Assets/Scenes/Season1/S1_Scene18.unity
     guid: a5e76bc1f9540b6479c0d9a1d33730b4
@@ -140,6 +149,9 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/Season2/S2_Scene7.unity
     guid: 87573811dc5d702469f40e95d3640201
+  - enabled: 1
+    path: Assets/Scenes/Season2/S2_Scene7_2.unity
+    guid: 5de1f47d1df351445b5d6d5e6d2381cb
   - enabled: 1
     path: Assets/Scenes/Season2/S2_Scene8.unity
     guid: 164ab2672c600f44ab4ff7c1c04e15b1
