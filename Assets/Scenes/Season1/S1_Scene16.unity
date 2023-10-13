@@ -941,6 +941,7 @@ GameObject:
   - component: {fileID: 497954297}
   - component: {fileID: 497954296}
   - component: {fileID: 497954298}
+  - component: {fileID: 497954299}
   m_Layer: 0
   m_Name: reply 2
   m_TagString: Untagged
@@ -1008,7 +1009,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 497954295}
   serializedVersion: 2
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
   m_LocalPosition: {x: 1.728, y: -0.35, z: 0}
   m_LocalScale: {x: 0.13, y: 0.13, z: 0.13}
   m_ConstrainProportionsScale: 1
@@ -1060,6 +1061,27 @@ BoxCollider2D:
   serializedVersion: 2
   m_Size: {x: 3.941367, y: 1.2237475}
   m_EdgeRadius: 0
+--- !u!95 &497954299
+Animator:
+  serializedVersion: 5
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 497954295}
+  m_Enabled: 1
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 9100000, guid: 84943360fdb8ff14cadfe94991be1ce3, type: 2}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_StabilizeFeet: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
+  m_KeepAnimatorStateOnDisable: 0
+  m_WriteDefaultValuesOnDisable: 0
 --- !u!1 &871580893
 GameObject:
   m_ObjectHideFlags: 0
@@ -1444,6 +1466,7 @@ GameObject:
   - component: {fileID: 1146581092}
   - component: {fileID: 1146581091}
   - component: {fileID: 1146581093}
+  - component: {fileID: 1146581094}
   m_Layer: 0
   m_Name: reply 3
   m_TagString: Untagged
@@ -1511,7 +1534,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1146581090}
   serializedVersion: 2
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
   m_LocalPosition: {x: 1.241, y: -0.35, z: 0}
   m_LocalScale: {x: 0.03, y: 0.03, z: 0.03}
   m_ConstrainProportionsScale: 1
@@ -1563,6 +1586,27 @@ BoxCollider2D:
   serializedVersion: 2
   m_Size: {x: 20.7131, y: 5.0394125}
   m_EdgeRadius: 0
+--- !u!95 &1146581094
+Animator:
+  serializedVersion: 5
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1146581090}
+  m_Enabled: 1
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 9100000, guid: 84943360fdb8ff14cadfe94991be1ce3, type: 2}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_StabilizeFeet: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
+  m_KeepAnimatorStateOnDisable: 0
+  m_WriteDefaultValuesOnDisable: 0
 --- !u!1 &1861774996
 GameObject:
   m_ObjectHideFlags: 0
@@ -1574,6 +1618,7 @@ GameObject:
   - component: {fileID: 1861774998}
   - component: {fileID: 1861774997}
   - component: {fileID: 1861774999}
+  - component: {fileID: 1861775000}
   m_Layer: 0
   m_Name: reply 1
   m_TagString: Untagged
@@ -1641,7 +1686,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1861774996}
   serializedVersion: 2
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
   m_LocalPosition: {x: 0.573, y: -0.35, z: 0}
   m_LocalScale: {x: 0.035, y: 0.035, z: 0.035}
   m_ConstrainProportionsScale: 1
@@ -1693,6 +1738,27 @@ BoxCollider2D:
   serializedVersion: 2
   m_Size: {x: 12.914, y: 5.369586}
   m_EdgeRadius: 0
+--- !u!95 &1861775000
+Animator:
+  serializedVersion: 5
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1861774996}
+  m_Enabled: 1
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 9100000, guid: 84943360fdb8ff14cadfe94991be1ce3, type: 2}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_StabilizeFeet: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
+  m_KeepAnimatorStateOnDisable: 0
+  m_WriteDefaultValuesOnDisable: 0
 --- !u!1 &1979302835
 GameObject:
   m_ObjectHideFlags: 0

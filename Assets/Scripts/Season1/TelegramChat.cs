@@ -136,6 +136,7 @@ public class TelegramChat : MonoBehaviour
                         // Set the optionChosen flag to true
                         optionChosen = true;
                         option.gameObject.transform.position = new Vector3(1.7f, 0f, 0f);
+                        option.gameObject.GetComponent<Animator>().SetTrigger("Reply");
                         
 
                         foreach (GameObject otherOption in options)

@@ -1,9 +1,9 @@
 using System.Collections;
-using System.Collections.Generic;
+
 using System.Threading.Tasks;
 using UnityEngine;
 using UnityEngine.SceneManagement;
-using UnityEngine.UI;
+
 public class PhoneCallMother : MonoBehaviour
 {
 
@@ -154,6 +154,7 @@ public class PhoneCallMother : MonoBehaviour
 
         // Show the response based on the option index
         responses[optionIndex].SetActive(true);
+        responses[optionIndex].GetComponent<Animator>().SetTrigger("Stop");
 
         // Move the response to a specific position based on the option index
         // You can adjust the position values according to your preference

@@ -135,7 +135,7 @@ GameObject:
   - component: {fileID: 284716092}
   - component: {fileID: 284716094}
   m_Layer: 0
-  m_Name: Pic2
+  m_Name: Pic3
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -181,7 +181,7 @@ SpriteRenderer:
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: 0
   m_SortingLayer: 0
-  m_SortingOrder: 3
+  m_SortingOrder: 2
   m_Sprite: {fileID: 21300000, guid: f2a155be6bdab60489f79020df39ca53, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
@@ -375,8 +375,8 @@ MonoBehaviour:
   clock: {fileID: 1648384876}
   _picturesAnimator:
   - {fileID: 597103830}
-  - {fileID: 284716094}
   - {fileID: 774159499}
+  - {fileID: 284716094}
   - {fileID: 939445507}
   hour: {fileID: 977357807}
   lower:
@@ -509,7 +509,7 @@ GameObject:
   - component: {fileID: 774159497}
   - component: {fileID: 774159499}
   m_Layer: 0
-  m_Name: Pic3
+  m_Name: Pic2
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -555,7 +555,7 @@ SpriteRenderer:
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: 0
   m_SortingLayer: 0
-  m_SortingOrder: 2
+  m_SortingOrder: 3
   m_Sprite: {fileID: 21300000, guid: b5ee3e92c68040e468e8e104524ca6d6, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
@@ -1261,7 +1261,7 @@ SceneRoots:
   - {fileID: 560718332}
   - {fileID: 1648384878}
   - {fileID: 597103829}
-  - {fileID: 284716093}
   - {fileID: 774159498}
+  - {fileID: 284716093}
   - {fileID: 939445506}
   - {fileID: 1164366224}

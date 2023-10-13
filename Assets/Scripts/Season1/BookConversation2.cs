@@ -9,6 +9,7 @@ public class BookConversation2 : MonoBehaviour
 {
     public static int _eventIndex = 0;
     [SerializeField] private Collider2D Pen;
+    [SerializeField] private GameObject Pencil;
     [SerializeField] private AudioSource _audioSource;
     [SerializeField] private Animator _animator;
     [SerializeField] private GameObject[] dialogue;
@@ -35,6 +36,7 @@ public class BookConversation2 : MonoBehaviour
             {
                 
                 _animator.speed = 0f;
+                Pencil.SetActive(false);
                 _audioSource.Play();
                 Pen.enabled = false;
                 dialogue[0].SetActive(true);
@@ -44,6 +46,7 @@ public class BookConversation2 : MonoBehaviour
                 bookdialogue[1].SetActive(true);
                 await Task.Delay(2000);
                 _eventIndex++;
+                Pencil.SetActive(true);
                 Pen.enabled = true;
                 _animator.speed = 1;
                 
@@ -67,6 +70,7 @@ public class BookConversation2 : MonoBehaviour
             {
                 _animator.speed = 0f;
                 Pen.enabled = false;
+                Pencil.SetActive(false);
                 dialogue[0].SetActive(false);
                 bookdialogue[0].SetActive(false);
                 bookdialogue[1].SetActive(false);
@@ -77,6 +81,7 @@ public class BookConversation2 : MonoBehaviour
                 bookdialogue[2].SetActive(true);
                 await Task.Delay(2000);
                 _eventIndex++;
+                Pencil.SetActive(true);
                 Pen.enabled = true;
                 _animator.speed = 1;
 
@@ -98,6 +103,7 @@ public class BookConversation2 : MonoBehaviour
             {
                 _animator.speed = 0f;
                 Pen.enabled = false;
+                Pencil.SetActive(false);
                 dialogue[1].SetActive(false);
                 bookdialogue[2].SetActive(false);
                 await Task.Delay(1000);
@@ -107,6 +113,7 @@ public class BookConversation2 : MonoBehaviour
                 bookdialogue[3].SetActive(true);
                 await Task.Delay(2000);
                 _eventIndex++;
+                Pencil.SetActive(true);
                 Pen.enabled = true;
                 _animator.speed = 1;
                 
@@ -128,13 +135,14 @@ public class BookConversation2 : MonoBehaviour
             {
                 _animator.speed = 0f;
                 Pen.enabled = false;
+                Pencil.SetActive(false);
                 _audioSource.Play();
                 dialogue[3].SetActive(true);
-                await Task.Delay(3000);
+                await Task.Delay(5500);
                 dialogue[2].SetActive(false);
                 bookdialogue[3].SetActive(false);
                 dialogue[3].SetActive(false);
-                await Task.Delay(2000);
+                await Task.Delay(500);
                 SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex + 1);
 
             }

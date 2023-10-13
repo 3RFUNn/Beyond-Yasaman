@@ -1,20 +1,20 @@
 using System.Threading.Tasks;
 using UnityEngine;
 using UnityEngine.SceneManagement;
-using UnityEngine.UIElements;
+
 
 public class OpenBook : MonoBehaviour
 {
     [SerializeField] private GameObject[] conversation;
     [SerializeField] private AudioSource _audioSource;
     [SerializeField] private Animator _animator;
-    [SerializeField] private GameObject text;
+    
     // The current event index
     private int eventIndex = 0;
     private static bool action = true;
 
 // The total number of events
-    private int eventCount = 12;
+    private int eventCount = 11;
 
 // The array of delegates for the events
     private System.Action[] events;
@@ -40,8 +40,7 @@ public class OpenBook : MonoBehaviour
         events[7] = reset2;
         events[8] = Book3;
         events[9] = Yasaman3;
-        events[10] = reset3;
-        events[11] = exit;
+        events[10] = exit;
 
 
 
@@ -82,7 +81,7 @@ public class OpenBook : MonoBehaviour
     private void EventOne()
     {
         _animator.SetTrigger("Open");
-        text.SetActive(false);
+        
         _audioSource.Play();
     }
 
@@ -147,13 +146,6 @@ public class OpenBook : MonoBehaviour
         conversation[8].SetActive(true);
 
 
-    }
-
-    private void reset3()
-    {
-        conversation[9].SetActive(true);
-        
-        
     }
 
     private void exit()

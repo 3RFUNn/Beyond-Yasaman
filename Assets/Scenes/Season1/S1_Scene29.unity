@@ -380,7 +380,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 4831305733180968209, guid: b8b2a2e0fc5c9b243bc474e7e50578c1, type: 3}
       propertyPath: m_Enabled
-      value: 0
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 4831305733180968214, guid: b8b2a2e0fc5c9b243bc474e7e50578c1, type: 3}
       propertyPath: m_Name
@@ -390,9 +390,19 @@ PrefabInstance:
       propertyPath: m_TagString
       value: Untagged
       objectReference: {fileID: 0}
-    m_RemovedComponents:
-    - {fileID: 7827138800936927220, guid: b8b2a2e0fc5c9b243bc474e7e50578c1, type: 3}
-    - {fileID: 4831305733180968209, guid: b8b2a2e0fc5c9b243bc474e7e50578c1, type: 3}
+    - target: {fileID: 4831305734748847190, guid: b8b2a2e0fc5c9b243bc474e7e50578c1, type: 3}
+      propertyPath: m_SortingOrder
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 4831305734992507047, guid: b8b2a2e0fc5c9b243bc474e7e50578c1, type: 3}
+      propertyPath: m_SortingOrder
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 7827138800936927220, guid: b8b2a2e0fc5c9b243bc474e7e50578c1, type: 3}
+      propertyPath: _animator
+      value: 
+      objectReference: {fileID: 519420033}
+    m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
     m_AddedComponents:
@@ -527,7 +537,7 @@ Camera:
   m_Enabled: 1
   serializedVersion: 2
   m_ClearFlags: 2
-  m_BackGroundColor: {r: 0.9952008, g: 1, b: 0.71383643, a: 0}
+  m_BackGroundColor: {r: 0.9901031, g: 1, b: 0.64779866, a: 0}
   m_projectionMatrixMode: 1
   m_GateFitMode: 2
   m_FOVAxisMode: 0
@@ -593,7 +603,7 @@ Animator:
   m_GameObject: {fileID: 519420028}
   m_Enabled: 1
   m_Avatar: {fileID: 0}
-  m_Controller: {fileID: 9100000, guid: 52cfaad32bddd6b4c98e2c35b2992b1d, type: 2}
+  m_Controller: {fileID: 9100000, guid: bd01f2040766ec04a905576fad3cda1b, type: 2}
   m_CullingMode: 0
   m_UpdateMode: 0
   m_ApplyRootMotion: 0
@@ -1012,6 +1022,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 4831305733180968209, guid: b8b2a2e0fc5c9b243bc474e7e50578c1, type: 3}
+      propertyPath: m_Enabled
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 4831305733180968214, guid: b8b2a2e0fc5c9b243bc474e7e50578c1, type: 3}
       propertyPath: m_Name
       value: Light
@@ -1022,17 +1036,19 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 4831305734748847190, guid: b8b2a2e0fc5c9b243bc474e7e50578c1, type: 3}
       propertyPath: m_SortingOrder
-      value: 2
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 4831305734992507047, guid: b8b2a2e0fc5c9b243bc474e7e50578c1, type: 3}
       propertyPath: m_SortingOrder
-      value: 1
+      value: 2
       objectReference: {fileID: 0}
     - target: {fileID: 7827138800936927220, guid: b8b2a2e0fc5c9b243bc474e7e50578c1, type: 3}
       propertyPath: _animator
       value: 
       objectReference: {fileID: 519420033}
-    m_RemovedComponents: []
+    m_RemovedComponents:
+    - {fileID: 7827138800936927220, guid: b8b2a2e0fc5c9b243bc474e7e50578c1, type: 3}
+    - {fileID: 4831305733180968209, guid: b8b2a2e0fc5c9b243bc474e7e50578c1, type: 3}
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
     m_AddedComponents:

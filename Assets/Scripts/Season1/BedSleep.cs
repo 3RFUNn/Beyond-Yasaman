@@ -70,7 +70,7 @@ public class BedSleep : MonoBehaviour
                 {
                     // Set the optionChosen flag to true
                     option.gameObject.transform.position = new Vector3(0.65f, 0.7f, 0f);
-                        
+                    option.gameObject.GetComponent<Animator>().SetTrigger("Stop");
 
                     foreach (GameObject otherOption in yourchat)
                     {

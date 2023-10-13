@@ -91,7 +91,7 @@ public class EmojiBookConversation : MonoBehaviour
                         }
                         else
                         {
-                            choice.transform.position = new Vector2(0, 0); // Change this to your desired position
+                            choice.transform.position = new Vector2(-0.1f, -0.5f); // Change this to your desired position
                             Option(choice);
                         }
                     }

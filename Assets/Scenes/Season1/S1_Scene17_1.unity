@@ -235,7 +235,7 @@ GameObject:
   - component: {fileID: 821973732}
   - component: {fileID: 821973731}
   m_Layer: 0
-  m_Name: Asset 1@3x
+  m_Name: Book
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
