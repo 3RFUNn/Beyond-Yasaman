@@ -34,7 +34,7 @@ public class EmojiBookConversation : MonoBehaviour
     private bool isPenActive; // Whether the pen is active or not
     
     [SerializeField] private Animator penAnimator; // The animator component of the pen
-    [SerializeField] private AudioSource audioSource; // The audio source component of this game object
+    // [SerializeField] private AudioSource audioSource; // The audio source component of this game object
 
     void Start()
     {
@@ -75,6 +75,7 @@ public class EmojiBookConversation : MonoBehaviour
             for (int i = 0; i < choices.Length; i++)
             {
                 GameObject choice = choices[i];
+                choice.SetActive(true);
 
                 // Get the collider component of the choice
                 Collider2D collider = choice.GetComponent<Collider2D>();
@@ -121,8 +122,11 @@ public class EmojiBookConversation : MonoBehaviour
             if (collider.OverlapPoint(mousePosition))
             {
                 // Play the second animation and the sound on the pen and deactivate its collider
-                penAnimator.Play("Pen");
-                audioSource.Play();
+                
+                // penAnimator.Play("Pen");
+                pen.SetActive(false);
+                penAnimator.Play("Still");
+                // audioSource.Play();
                 collider.enabled = false;
 
                 // Set the pen flag to false and start the dialogue coroutine
@@ -181,7 +185,10 @@ public class EmojiBookConversation : MonoBehaviour
             }
 
             yield return new WaitForSeconds(1f);
-            
+            if (dialogueIndex == 6)
+            {
+                characterDialogues[5].SetActive(false);
+            }
             bookDialogues[dialogueIndex].SetActive(true);
 
             StartCoroutine(DialogueCoroutine());
@@ -189,7 +196,7 @@ public class EmojiBookConversation : MonoBehaviour
         else
         {
             
-            yield return new WaitForSeconds(3);
+            yield return new WaitForSeconds(4);
             // Load the next scene when the dialogues are finished
             SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex + 1);
         }

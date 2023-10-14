@@ -10,37 +10,7 @@ public class Menu : MonoBehaviour
     // The key to store and retrieve the scene name
     private const string SceneKey = "SceneName";
 
-    // The static field that holds the reference to the singleton instance
-    private static Menu instance;
-
-    // The property that returns the singleton instance
-    public static Menu Instance
-    {
-        get
-        {
-            // If the instance is null, try to find an existing SceneSaver object in the scene
-            if (instance == null)
-            {
-                instance = FindObjectOfType<Menu>();
-            }
-
-            // If the instance is still null, create a new SceneSaver object and assign it to the instance
-            if (instance == null)
-            {
-                GameObject obj = new GameObject("SceneSaver");
-                instance = obj.AddComponent<Menu>();
-            }
-
-            // Return the instance
-            return instance;
-        }
-    }
-
-    // The private constructor that prevents other classes from creating new instances
-    private Menu()
-    {
-        // Do nothing
-    }
+    
 
     // Save the current scene name when the game is paused or quit
     private void OnApplicationPause(bool pause)
@@ -64,16 +34,24 @@ public class Menu : MonoBehaviour
         PlayerPrefs.Save();
     }
 
-    // Load the last scene name when the game is started
-    private void Awake()
+    
+    public static Menu instance;
+
+    void Awake()
     {
-        if (!SceneManager.GetActiveScene().name.Equals("MainMenu"))
+        // Check if the instance already exists
+        if (instance == null)
         {
-            SaveSceneName();
+            // If not, assign the current object to it
+            instance = this;
+            // Call DontDestroyOnLoad to make the object persistent
+            DontDestroyOnLoad(gameObject);
         }
-        // Make sure this object is not destroyed when loading a new scene
-        DontDestroyOnLoad(gameObject);
-        
+        else
+        {
+            // If it does, destroy the current object to avoid duplicates
+            Destroy(gameObject);
+        }
     }
 
     // Load the last scene name using PlayerPrefs
@@ -89,20 +67,20 @@ public class Menu : MonoBehaviour
             // Load the scene if it is not the current one
             if (sceneName != SceneManager.GetActiveScene().name)
             {
+                
                 SceneManager.LoadScene(sceneName);
+                
             }
         }
     }
 
-    public void NewGame()
-    {
-        SceneManager.LoadScene("S1_Scene1");
-    }
+   
 
-    public void Quit()
+    private void Update()
     {
-        Application.Quit();
+        if (!SceneManager.GetActiveScene().name.Equals("MainMenu"))
+        {
+            SaveSceneName();
+        }
     }
-
-    
 }
