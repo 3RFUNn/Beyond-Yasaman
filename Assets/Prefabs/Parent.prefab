@@ -11,6 +11,7 @@ GameObject:
   - component: {fileID: 7773136708949999795}
   - component: {fileID: 4147011713573518382}
   - component: {fileID: 6604725760638277075}
+  - component: {fileID: 982790993713759928}
   - component: {fileID: 660269038340424058}
   m_Layer: 0
   m_Name: Hand
@@ -107,6 +108,18 @@ Animator:
   m_AllowConstantClipSamplingOptimization: 1
   m_KeepAnimatorStateOnDisable: 0
   m_WriteDefaultValuesOnDisable: 0
+--- !u!114 &982790993713759928
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1328309524848093680}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b81f098f63ffa9d488f76f3d4001ffca, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!82 &660269038340424058
 AudioSource:
   m_ObjectHideFlags: 0
