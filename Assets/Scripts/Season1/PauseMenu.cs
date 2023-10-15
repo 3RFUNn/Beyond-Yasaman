@@ -1,13 +1,19 @@
 using UnityEngine;
 using UnityEngine.SceneManagement;
+using UnityEngine.UI;
 
 namespace Season1
 {
     public class PauseMenu : MonoBehaviour
     {
         [SerializeField] private GameObject pause;
+        [SerializeField] private Sprite[] MuteUnmute;
+        [SerializeField] private Image logo;
+        [SerializeField] private GameObject soundlogo;
+
+        private static bool key = true;
         // A boolean variable to store the pause state
-        public bool isPaused = false;
+        private bool isPaused = true;
 
         // A reference to the pause menu game object
         public GameObject pauseMenu;
@@ -75,8 +81,36 @@ namespace Season1
             pauseMenu.SetActive(false);
         }
 
+        public void Sound()
+        {
+            if (key)
+            {
+                logo.sprite = MuteUnmute[1];
+                key = false;
+                GameObject.FindGameObjectWithTag("Music").GetComponent<Music>().StopMusic();
+                
+            }
+
+            else if (!key)
+            {
+                logo.sprite = MuteUnmute[0];
+                key = true;
+                GameObject.FindGameObjectWithTag("Music").GetComponent<Music>().PlayMusic();
+                
+            }
+        }
+        
+
         private void Update()
         {
+            if (GameObject.FindWithTag("Music") != null)
+            {
+                soundlogo.SetActive(true);
+            }
+            else
+            {
+                soundlogo.SetActive(false);
+            }
             pause.SetActive(!SceneManager.GetActiveScene().name.Equals("MainMenu"));
         }
     }

@@ -2,135 +2,17 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="c45d4963-78e1-467e-8c1a-7532b1586aec" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/Assets/Extras/Pause.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Extras/Pause.png.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Pictures/NewAssets/LaptopFix.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Pictures/NewAssets/LaptopFix.png.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Pictures/NewAssets/LaptopFixTalk.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Pictures/NewAssets/LaptopFixTalk.png.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Pictures/Season2/Frame5/10.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Pictures/Season2/Frame5/10.png.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Pictures/Season2/Frame5/11.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Pictures/Season2/Frame5/11.png.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Pictures/Season2/Frame5/12.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Pictures/Season2/Frame5/12.png.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Pictures/Season2/Frame5/13.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Pictures/Season2/Frame5/13.png.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Pictures/Season2/Frame5/14.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Pictures/Season2/Frame5/14.png.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Pictures/Season2/Frame5/15.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Pictures/Season2/Frame5/15.png.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Pictures/Season2/Frame5/16.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Pictures/Season2/Frame5/16.png.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Pictures/Season2/Frame5/17.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Pictures/Season2/Frame5/17.png.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Pictures/Season2/Frame5/18.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Pictures/Season2/Frame5/18.png.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Pictures/Season2/Frame5/19.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Pictures/Season2/Frame5/19.png.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Pictures/Season2/Frame5/2.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Pictures/Season2/Frame5/2.png.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Pictures/Season2/Frame5/20.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Pictures/Season2/Frame5/20.png.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Pictures/Season2/Frame5/21.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Pictures/Season2/Frame5/21.png.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Pictures/Season2/Frame5/22.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Pictures/Season2/Frame5/22.png.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Pictures/Season2/Frame5/23.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Pictures/Season2/Frame5/23.png.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Pictures/Season2/Frame5/24.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Pictures/Season2/Frame5/24.png.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Pictures/Season2/Frame5/25.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Pictures/Season2/Frame5/25.png.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Pictures/Season2/Frame5/26.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Pictures/Season2/Frame5/26.png.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Pictures/Season2/Frame5/3.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Pictures/Season2/Frame5/3.png.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Pictures/Season2/Frame5/4.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Pictures/Season2/Frame5/4.png.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Pictures/Season2/Frame5/5.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Pictures/Season2/Frame5/5.png.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Pictures/Season2/Frame5/6.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Pictures/Season2/Frame5/6.png.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Pictures/Season2/Frame5/7.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Pictures/Season2/Frame5/7.png.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Pictures/Season2/Frame5/8.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Pictures/Season2/Frame5/8.png.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Pictures/Season2/Frame5/9.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Pictures/Season2/Frame5/9.png.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Scenes/Season1/S1_Scene32_1.unity" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Scenes/Season1/S1_Scene32_1.unity.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Scripts/SceneLoader.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Scripts/SceneLoader.cs.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Scripts/Season1/LaptopFix.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Scripts/Season1/LaptopFix.cs.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Scripts/Season1/PauseMenu.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Scripts/Season1/PauseMenu.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Extras/MuteUnmute.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Extras/MuteUnmute.png.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Prefabs/Music.prefab" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Prefabs/Music.prefab.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Scripts/Music.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Scripts/Music.cs.meta" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.Yasaman's Journey/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Yasaman's Journey/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Pictures/NewAssets/HandWrite.anim" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Pictures/NewAssets/HandWrite.anim" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Pictures/Season1/Scene18/Pen.controller" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Pictures/Season1/Scene18/Pen.controller" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Pictures/Season2/Frame5/1.png" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Pictures/Season2/Frame5/1.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Pictures/Season2/Frame5/۱۰.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Pictures/Season2/Frame5/۱۰.png.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Pictures/Season2/Frame5/۱۱.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Pictures/Season2/Frame5/۱۱.png.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Pictures/Season2/Frame5/۱۲.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Pictures/Season2/Frame5/۱۲.png.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Pictures/Season2/Frame5/۱۳.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Pictures/Season2/Frame5/۱۳.png.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Pictures/Season2/Frame5/۱۴.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Pictures/Season2/Frame5/۱۴.png.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Pictures/Season2/Frame5/۱۵.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Pictures/Season2/Frame5/۱۵.png.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Pictures/Season2/Frame5/۱۶.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Pictures/Season2/Frame5/۱۶.png.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Pictures/Season2/Frame5/۱۷.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Pictures/Season2/Frame5/۱۷.png.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Pictures/Season2/Frame5/۱۸.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Pictures/Season2/Frame5/۱۸.png.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Pictures/Season2/Frame5/۱۹.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Pictures/Season2/Frame5/۱۹.png.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Pictures/Season2/Frame5/۲.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Pictures/Season2/Frame5/۲.png.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Pictures/Season2/Frame5/۲۰.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Pictures/Season2/Frame5/۲۰.png.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Pictures/Season2/Frame5/۲۱.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Pictures/Season2/Frame5/۲۱.png.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Pictures/Season2/Frame5/۲۲.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Pictures/Season2/Frame5/۲۲.png.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Pictures/Season2/Frame5/۲۳.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Pictures/Season2/Frame5/۲۳.png.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Pictures/Season2/Frame5/۲۴.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Pictures/Season2/Frame5/۲۴.png.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Pictures/Season2/Frame5/۲۵.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Pictures/Season2/Frame5/۲۵.png.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Pictures/Season2/Frame5/۲۶.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Pictures/Season2/Frame5/۲۶.png.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Pictures/Season2/Frame5/۲۷.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Pictures/Season2/Frame5/۲۷.png.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Pictures/Season2/Frame5/۳.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Pictures/Season2/Frame5/۳.png.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Pictures/Season2/Frame5/۴.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Pictures/Season2/Frame5/۴.png.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Pictures/Season2/Frame5/۵.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Pictures/Season2/Frame5/۵.png.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Pictures/Season2/Frame5/۶.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Pictures/Season2/Frame5/۶.png.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Pictures/Season2/Frame5/۷.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Pictures/Season2/Frame5/۷.png.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Pictures/Season2/Frame5/۸.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Pictures/Season2/Frame5/۸.png.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Pictures/Season2/Frame5/۹.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Pictures/Season2/Frame5/۹.png.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/Parent.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefabs/Parent.prefab" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Scenes/Season1/MainMenu.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/Season1/MainMenu.unity" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scenes/Season1/S1_Scene32.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/Season1/S1_Scene32.unity" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scenes/Season1/S1_Scene37.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/Season1/S1_Scene37.unity" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Scenes/Season2/S2_Scene10.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/Season2/S2_Scene10.unity" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Season1/EmojiBookConversation.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Season1/EmojiBookConversation.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Season1/Menu.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Season1/Menu.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Season3/ShowCredits.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Season3/ShowCredits.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ProjectSettings/EditorBuildSettings.asset" beforeDir="false" afterPath="$PROJECT_DIR$/ProjectSettings/EditorBuildSettings.asset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Season1/PauseMenu.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Season1/PauseMenu.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ProjectSettings/TagManager.asset" beforeDir="false" afterPath="$PROJECT_DIR$/ProjectSettings/TagManager.asset" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -257,7 +139,7 @@
       <workItem from="1697018795393" duration="2644000" />
       <workItem from="1697151843248" duration="369000" />
       <workItem from="1697192352064" duration="21235000" />
-      <workItem from="1697311078977" duration="3634000" />
+      <workItem from="1697311078977" duration="9310000" />
     </task>
     <servers />
   </component>
