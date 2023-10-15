@@ -135,7 +135,7 @@ GameObject:
   - component: {fileID: 63567360}
   - component: {fileID: 63567359}
   - component: {fileID: 63567358}
-  - component: {fileID: 63567357}
+  - component: {fileID: 63567361}
   m_Layer: 5
   m_Name: Button
   m_TagString: Untagged
@@ -163,18 +163,6 @@ RectTransform:
   m_AnchoredPosition: {x: 0, y: 0}
   m_SizeDelta: {x: 160, y: 30}
   m_Pivot: {x: 0.5, y: 0.5}
---- !u!114 &63567357
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 63567355}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 47a2bed9e5fdde64c9e76a98779d9f98, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!114 &63567358
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -219,9 +207,9 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 63567357}
-        m_TargetAssemblyTypeName: Menu, Assembly-CSharp
-        m_MethodName: MainMenu
+      - m_Target: {fileID: 63567361}
+        m_TargetAssemblyTypeName: Season1.PauseMenu, Assembly-CSharp
+        m_MethodName: Menu
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
@@ -269,6 +257,23 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 63567355}
   m_CullTransparentMesh: 1
+--- !u!114 &63567361
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 63567355}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6942438911704d44ba45cea20c30f021, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  pause: {fileID: 0}
+  MuteUnmute: []
+  logo: {fileID: 0}
+  soundlogo: {fileID: 0}
+  pauseMenu: {fileID: 0}
 --- !u!1 &116389829
 GameObject:
   m_ObjectHideFlags: 0
@@ -984,11 +989,11 @@ AudioSource:
   m_Enabled: 1
   serializedVersion: 4
   OutputAudioMixerGroup: {fileID: 0}
-  m_audioClip: {fileID: 8300000, guid: edc6ae9ea532d9d408840e02bcd379f1, type: 3}
+  m_audioClip: {fileID: 8300000, guid: 4c0f118c6823fe24c8f38baab9f640ea, type: 3}
   m_PlayOnAwake: 1
-  m_Volume: 1
+  m_Volume: 0.5
   m_Pitch: 1
-  Loop: 0
+  Loop: 1
   Mute: 0
   Spatialize: 0
   SpatializePostEffects: 0

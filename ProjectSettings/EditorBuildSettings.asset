@@ -75,9 +75,6 @@ EditorBuildSettings:
     path: Assets/Scenes/Season1/S1_Scene19.unity
     guid: 18dce781a9796984fab7b1be91f549bc
   - enabled: 1
-    path: Assets/Scenes/Season1/S1_Scene19_1.unity
-    guid: 28673914a71181c409db605c4c729e19
-  - enabled: 1
     path: Assets/Scenes/Season1/S1_Scene20.unity
     guid: 729a8c7a08855324eba351f3703a8554
   - enabled: 1

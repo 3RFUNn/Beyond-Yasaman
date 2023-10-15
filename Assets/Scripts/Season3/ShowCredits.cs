@@ -30,8 +30,7 @@ public class ShowCredits : MonoBehaviour
         creditsText[4].SetActive(true);
         yield return new WaitForSeconds(5.5f);
         creditsText[5].SetActive(true);
-        yield return new WaitForSeconds(5.5f);
-        SceneManager.LoadScene("MainMenu");
+        
 
     }
 }
