@@ -142,8 +142,73 @@ public class BookConversation2 : MonoBehaviour
                 dialogue[2].SetActive(false);
                 bookdialogue[3].SetActive(false);
                 dialogue[3].SetActive(false);
-                await Task.Delay(500);
+                await Task.Delay(1000);
+                bookdialogue[4].SetActive(true);
+                await Task.Delay(3000);
+                Pencil.SetActive(true);
+                Pen.enabled = true;
+                _animator.speed = 1;
+                _eventIndex++;
+
+
+            }
+
+        }
+
+    }
+    
+    private async void Event3()
+    {
+        if (Input.GetMouseButtonDown(0))
+        {
+            // Cast a ray from the camera to the mouse position
+            Ray ray = Camera.main.ScreenPointToRay(Input.mousePosition);
+            RaycastHit2D hit = Physics2D.Raycast(ray.origin, ray.direction);
+
+            // Check if the hit collider is this one
+            if (hit.collider != null && hit.collider == Pen)
+            {
+                _animator.speed = 0f;
+                Pen.enabled = false;
+                Pencil.SetActive(false);
+                _audioSource.Play();
+                dialogue[4].SetActive(true);
+                await Task.Delay(3500);
+                bookdialogue[4].SetActive(false);
+                dialogue[4].SetActive(false);
+                await Task.Delay(1000);
+                bookdialogue[5].SetActive(true);
+                Pencil.SetActive(true);
+                Pen.enabled = true;
+                _animator.speed = 1;
+                _eventIndex++;
+                
+
+
+            }
+
+        }
+    }
+    private async void PenActive3()
+    {
+        if (Input.GetMouseButtonDown(0))
+        {
+            // Cast a ray from the camera to the mouse position
+            Ray ray = Camera.main.ScreenPointToRay(Input.mousePosition);
+            RaycastHit2D hit = Physics2D.Raycast(ray.origin, ray.direction);
+
+            // Check if the hit collider is this one
+            if (hit.collider != null && hit.collider == Pen)
+            {
+                _animator.speed = 0f;
+                Pen.enabled = false;
+                Pencil.SetActive(false);
+                _audioSource.Play();
+                dialogue[5].SetActive(true);
+                await Task.Delay(5500);
                 SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex + 1);
+                
+
 
             }
 
@@ -164,9 +229,13 @@ public class BookConversation2 : MonoBehaviour
                 break;
             case 3 : PenActive2();
                 break;
+            case 4 : Event3();
+                break;
+            case 5 : PenActive3();
+                break;
 
 
-
+               
 
         }
         

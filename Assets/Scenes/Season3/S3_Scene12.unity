@@ -152,15 +152,15 @@ RectTransform:
   m_GameObject: {fileID: 63567355}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 7, y: 8, z: 7}
-  m_ConstrainProportionsScale: 0
+  m_LocalScale: {x: 3.7, y: 4.2285714, z: 3.7}
+  m_ConstrainProportionsScale: 1
   m_Children:
   - {fileID: 856410772}
   m_Father: {fileID: 1516873845}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 0, y: 0}
+  m_AnchoredPosition: {x: 0, y: -327}
   m_SizeDelta: {x: 160, y: 30}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &63567358
@@ -309,8 +309,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 1, y: 1}
-  m_AnchoredPosition: {x: 0, y: -500}
-  m_SizeDelta: {x: 0, y: -1000}
+  m_AnchoredPosition: {x: 0, y: 262.37}
+  m_SizeDelta: {x: 0, y: -1089.7058}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!95 &116389831
 Animator:
@@ -410,7 +410,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 1, y: 1}
-  m_AnchoredPosition: {x: 75, y: -500}
+  m_AnchoredPosition: {x: 0, y: -19}
   m_SizeDelta: {x: -150, y: -1000}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &724781463
@@ -440,13 +440,13 @@ MonoBehaviour:
     m_BestFit: 0
     m_MinSize: 2
     m_MaxSize: 300
-    m_Alignment: 0
+    m_Alignment: 1
     m_AlignByGeometry: 0
     m_RichText: 1
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: Yasaman's Journey
+  m_Text: Beyond Yasaman
 --- !u!222 &724781464
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -645,8 +645,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 1, y: 1}
-  m_AnchoredPosition: {x: 0, y: -400}
-  m_SizeDelta: {x: 0, y: -800}
+  m_AnchoredPosition: {x: 0, y: 79.15225}
+  m_SizeDelta: {x: 0, y: -897.0577}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!95 &865469877
 Animator:
@@ -691,10 +691,10 @@ MonoBehaviour:
       m_Calls: []
   m_FontData:
     m_Font: {fileID: 12800000, guid: f0e39778b0640e948b3e1ee72a9f77fb, type: 3}
-    m_FontSize: 200
+    m_FontSize: 150
     m_FontStyle: 0
     m_BestFit: 0
-    m_MinSize: 2
+    m_MinSize: 1
     m_MaxSize: 300
     m_Alignment: 1
     m_AlignByGeometry: 0
@@ -817,7 +817,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 1, y: 1}
-  m_AnchoredPosition: {x: 0, y: -400}
+  m_AnchoredPosition: {x: 0, y: 0.000061035156}
   m_SizeDelta: {x: 0, y: -800}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!95 &1238427812
@@ -863,10 +863,10 @@ MonoBehaviour:
       m_Calls: []
   m_FontData:
     m_Font: {fileID: 12800000, guid: f0e39778b0640e948b3e1ee72a9f77fb, type: 3}
-    m_FontSize: 200
+    m_FontSize: 150
     m_FontStyle: 0
     m_BestFit: 0
-    m_MinSize: 2
+    m_MinSize: 1
     m_MaxSize: 300
     m_Alignment: 1
     m_AlignByGeometry: 0
@@ -1123,11 +1123,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 0cd44c1031e13a943bb63640046fad76, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  m_UiScaleMode: 0
+  m_UiScaleMode: 1
   m_ReferencePixelsPerUnit: 100
   m_ScaleFactor: 1
   m_ReferenceResolution: {x: 800, y: 600}
-  m_ScreenMatchMode: 0
+  m_ScreenMatchMode: 1
   m_MatchWidthOrHeight: 0
   m_PhysicalUnit: 3
   m_FallbackScreenDPI: 96
@@ -1217,8 +1217,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 1, y: 1}
-  m_AnchoredPosition: {x: 0, y: -400}
-  m_SizeDelta: {x: 0, y: -800}
+  m_AnchoredPosition: {x: 0, y: 79.152}
+  m_SizeDelta: {x: 0, y: -541.4362}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!95 &1815878673
 Animator:
@@ -1263,10 +1263,10 @@ MonoBehaviour:
       m_Calls: []
   m_FontData:
     m_Font: {fileID: 12800000, guid: f0e39778b0640e948b3e1ee72a9f77fb, type: 3}
-    m_FontSize: 200
+    m_FontSize: 150
     m_FontStyle: 0
     m_BestFit: 0
-    m_MinSize: 2
+    m_MinSize: 1
     m_MaxSize: 300
     m_Alignment: 1
     m_AlignByGeometry: 0
