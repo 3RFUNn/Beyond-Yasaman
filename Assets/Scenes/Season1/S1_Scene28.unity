@@ -476,7 +476,7 @@ MonoBehaviour:
   colliders:
   - {fileID: 916991312}
   - {fileID: 321884168}
-  - {fileID: 0}
+  - {fileID: 1236905275}
   - {fileID: 321884168}
   _animator:
   - {fileID: 269807245}

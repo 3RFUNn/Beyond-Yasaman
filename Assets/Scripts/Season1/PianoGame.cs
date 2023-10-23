@@ -8,8 +8,6 @@ public class PianoGame : MonoBehaviour
 {
     //music notes picture
     [SerializeField] private GameObject music;
-    
-    [SerializeField] private GameObject _text;
 
     // The array of 2D colliders for the five keys to click
     [SerializeField] private Collider2D[] keys;
@@ -49,19 +47,15 @@ public class PianoGame : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        // Check if the mouse button is pressed
         if (Input.GetMouseButtonDown(0))
         {
-            // Get the mouse position in world coordinates
-            Vector2 mousePos = Camera.main.ScreenToWorldPoint(Input.mousePosition);
+            // Cast a ray from the camera to the mouse position
+            Ray ray = Camera.main.ScreenPointToRay(Input.mousePosition);
+            RaycastHit2D hit = Physics2D.Raycast(ray.origin, ray.direction);
 
-            // Check if the mouse is over the current key
-            if (keys[currentKey].OverlapPoint(mousePos))
+            // Check if the ray hit a collider
+            if (hit.collider != null)
             {
-                if (currentKey == 0)
-                {
-                    _text.SetActive(false);
-                }
                 // Play the sound of the key
                 audioSource.PlayOneShot(sounds[currentKey]);
 
