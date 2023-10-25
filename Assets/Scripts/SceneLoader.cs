@@ -14,7 +14,7 @@ public class SceneLoader : MonoBehaviour
     {
         
        
-        SceneManager.LoadScene("S1_Scene1");
+        SceneManager.LoadScene("S1_Scene0");
     }
 
     public void Quit()
