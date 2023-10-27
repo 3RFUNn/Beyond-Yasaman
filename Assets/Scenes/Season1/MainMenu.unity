@@ -947,6 +947,7 @@ MonoBehaviour:
   - {fileID: -1560111941, guid: b85cdf9eb312fa54baa6dfd62d9c6414, type: 3}
   logo: {fileID: 1941927452}
   soundlogo: {fileID: 1941927448}
+  menu: {fileID: 715206434}
   pauseMenu: {fileID: 2012457592}
 --- !u!224 &414117306
 RectTransform:

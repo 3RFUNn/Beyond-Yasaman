@@ -141,7 +141,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!4 &55386311
 Transform:
   m_ObjectHideFlags: 0
@@ -293,7 +293,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!4 &570735488
 Transform:
   m_ObjectHideFlags: 0
@@ -439,6 +439,7 @@ GameObject:
   - component: {fileID: 693860279}
   - component: {fileID: 693860278}
   - component: {fileID: 693860281}
+  - component: {fileID: 693860282}
   m_Layer: 0
   m_Name: Main Camera
   m_TagString: MainCamera
@@ -541,6 +542,28 @@ MonoBehaviour:
   - {fileID: 570735487}
   - {fileID: 55386310}
   - {fileID: 1871202688}
+  camera: {fileID: 693860282}
+--- !u!95 &693860282
+Animator:
+  serializedVersion: 5
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 693860277}
+  m_Enabled: 1
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 9100000, guid: 6e99286eb94a0764d95dab1e6bb71df3, type: 2}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_StabilizeFeet: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
+  m_KeepAnimatorStateOnDisable: 0
+  m_WriteDefaultValuesOnDisable: 0
 --- !u!1 &1488425855
 GameObject:
   m_ObjectHideFlags: 0
@@ -557,7 +580,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!4 &1488425856
 Transform:
   m_ObjectHideFlags: 0
@@ -712,7 +735,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!4 &1668141703
 Transform:
   m_ObjectHideFlags: 0
@@ -864,7 +887,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!4 &1871202689
 Transform:
   m_ObjectHideFlags: 0
@@ -1101,6 +1124,38 @@ PrefabInstance:
     - target: {fileID: 992514268919205512, guid: 3db162c7a4f0b22489471929f9763fa2, type: 3}
       propertyPath: m_IsActive
       value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1249080231235462045, guid: 3db162c7a4f0b22489471929f9763fa2, type: 3}
+      propertyPath: m_LocalScale.x
+      value: 95.29756
+      objectReference: {fileID: 0}
+    - target: {fileID: 1249080231235462045, guid: 3db162c7a4f0b22489471929f9763fa2, type: 3}
+      propertyPath: m_LocalScale.y
+      value: 18.538462
+      objectReference: {fileID: 0}
+    - target: {fileID: 1249080231235462045, guid: 3db162c7a4f0b22489471929f9763fa2, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: -0.079
+      objectReference: {fileID: 0}
+    - target: {fileID: 1249080231235462045, guid: 3db162c7a4f0b22489471929f9763fa2, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: -32.897
+      objectReference: {fileID: 0}
+    - target: {fileID: 4519448698758273758, guid: 3db162c7a4f0b22489471929f9763fa2, type: 3}
+      propertyPath: m_LocalScale.x
+      value: 94.94585
+      objectReference: {fileID: 0}
+    - target: {fileID: 4519448698758273758, guid: 3db162c7a4f0b22489471929f9763fa2, type: 3}
+      propertyPath: m_LocalScale.y
+      value: 27.415384
+      objectReference: {fileID: 0}
+    - target: {fileID: 4519448698758273758, guid: 3db162c7a4f0b22489471929f9763fa2, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 0.079
+      objectReference: {fileID: 0}
+    - target: {fileID: 4519448698758273758, guid: 3db162c7a4f0b22489471929f9763fa2, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 36.779
       objectReference: {fileID: 0}
     - target: {fileID: 6724945336999685711, guid: 3db162c7a4f0b22489471929f9763fa2, type: 3}
       propertyPath: m_LocalPosition.x

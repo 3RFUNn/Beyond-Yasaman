@@ -10,6 +10,9 @@ public class LibraryContacts : MonoBehaviour
     [SerializeField] private List<GameObject> gameObjects;
 
     [SerializeField] private GameObject lastBubble;
+
+    // camera's animator
+    [SerializeField] private Animator camera;
     
     // A variable to store the mouse position
     private Vector2 mousePosition;
@@ -143,6 +146,8 @@ public class LibraryContacts : MonoBehaviour
 
     private async void StartNewScene()
     {
+        camera.SetTrigger("Zoom");
+        await Task.Delay(3000);
         lastBubble.SetActive(true);
         await Task.Delay(4000);
         SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex + 1);

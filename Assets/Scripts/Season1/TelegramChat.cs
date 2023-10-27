@@ -127,11 +127,10 @@ public class TelegramChat : MonoBehaviour
                 if (Input.GetMouseButtonDown(0))
                 {
                     // Get the mouse position in world coordinates
-                    Ray ray = Camera.main.ScreenPointToRay(Input.mousePosition);
-                    RaycastHit2D hit = Physics2D.Raycast(ray.origin, ray.direction);
+                    Vector2 mousePosition = Camera.main.ScreenToWorldPoint(Input.mousePosition);
 
                     // If the ray hit something, check if it was this option
-                    if (hit.collider != null && hit.collider == option.GetComponent<Collider2D>())
+                    if (option.GetComponent<Collider2D>().OverlapPoint(mousePosition))
                     {
                         // Set the optionChosen flag to true
                         optionChosen = true;

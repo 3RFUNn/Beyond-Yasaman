@@ -13,6 +13,7 @@ public class BedSleep : MonoBehaviour
     [SerializeField] private AudioSource _audioSource;
     [SerializeField] private GameObject book;
     [SerializeField] private GameObject[] yourchat;
+    [SerializeField] private Animator camera;
 
     private static bool trigger,trigger2 = false; 
     // Start is called before the first frame update
@@ -27,7 +28,7 @@ public class BedSleep : MonoBehaviour
     {
         await Task.Delay(3000);
         _audioSource.Play();
-        await Task.Delay(500);
+        await Task.Delay(1000);
         _phonebed.SetActive(false);
         phone.SetActive(true);
         await Task.Delay(500);
@@ -46,6 +47,8 @@ public class BedSleep : MonoBehaviour
         _phonebed.SetActive(true);
         book.SetActive(true);
         await Task.Delay(2000);
+        camera.SetTrigger("Zoom");
+        await Task.Delay(3000);
         book.GetComponent<Animator>().enabled = true;
         await Task.Delay(1000);
         book.GetComponent<Collider2D>().enabled = true;

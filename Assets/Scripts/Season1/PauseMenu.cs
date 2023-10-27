@@ -10,7 +10,9 @@ namespace Season1
         [SerializeField] private Sprite[] MuteUnmute;
         [SerializeField] private Image logo;
         [SerializeField] private GameObject soundlogo;
-
+        
+        [SerializeField] private Menu menu;
+        
         private static bool key = true;
         // A boolean variable to store the pause state
         private bool isPaused = true;
@@ -40,6 +42,8 @@ namespace Season1
         // A method to toggle the pause state
         public void Pause()
         {
+            menu.SaveSceneName();
+            
             // If the game is not paused, set isPaused to true and stop the time
             if (!isPaused)
             {

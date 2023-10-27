@@ -19,6 +19,8 @@ public class SceneLoader : MonoBehaviour
 
     public void Quit()
     {
+        string sceneName = PlayerPrefs.GetString(Menu.SceneKey);
+        PlayerPrefs.SetString(Menu.SceneKey, sceneName);
         PlayerPrefs.Save();
         Application.Quit();
     }

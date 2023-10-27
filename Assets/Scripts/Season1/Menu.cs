@@ -8,26 +8,17 @@ using UnityEngine.SceneManagement;
 public class Menu : MonoBehaviour
 {
     // The key to store and retrieve the scene name
-    private const string SceneKey = "SceneName";
-
+    public const string SceneKey = "SceneName";
     
-
-    // Save the current scene name when the game is paused or quit
-    private void OnApplicationPause(bool pause)
-    {
-        if (pause)
-        {
-            SaveSceneName();
-        }
-    }
-
     private void OnApplicationQuit()
     {
-        SaveSceneName();
+        string sceneName = PlayerPrefs.GetString(SceneKey);
+        PlayerPrefs.SetString(SceneKey, sceneName);
+        PlayerPrefs.Save();
     }
 
     // Save the current scene name using PlayerPrefs
-    private void SaveSceneName()
+    public void SaveSceneName()
     {
         string sceneName = SceneManager.GetActiveScene().name;
         PlayerPrefs.SetString(SceneKey, sceneName);
@@ -73,14 +64,5 @@ public class Menu : MonoBehaviour
             }
         }
     }
-
-   
-
-    private void Update()
-    {
-        if (!SceneManager.GetActiveScene().name.Equals("MainMenu"))
-        {
-            SaveSceneName();
-        }
-    }
+    
 }
