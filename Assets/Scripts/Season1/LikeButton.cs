@@ -18,7 +18,7 @@ public class LikeButton : MonoBehaviour
             Vector2 mousePosition = Camera.main.ScreenToWorldPoint(Input.mousePosition);
 
 
-            // Check if the mouse position overlaps with the pen collider
+            // Check if the mouse position overlaps with the collider
             if (like[number].OverlapPoint(mousePosition))
             {
                 if (number == 3)

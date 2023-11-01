@@ -274,7 +274,7 @@ BoxCollider2D:
   m_IsTrigger: 0
   m_UsedByEffector: 0
   m_UsedByComposite: 0
-  m_Offset: {x: -15.588144, y: -15.669871}
+  m_Offset: {x: -15.588142, y: -11.3154745}
   m_SpriteTilingProperty:
     border: {x: 0, y: 0, z: 0, w: 0}
     pivot: {x: 0.5, y: 0.5}
@@ -285,7 +285,7 @@ BoxCollider2D:
     adaptiveTiling: 0
   m_AutoTiling: 0
   serializedVersion: 2
-  m_Size: {x: 68.213, y: 13.853807}
+  m_Size: {x: 68.213, y: 25.17525}
   m_EdgeRadius: 0
 --- !u!1 &174903652
 GameObject:
@@ -1048,7 +1048,7 @@ BoxCollider2D:
   m_IsTrigger: 0
   m_UsedByEffector: 0
   m_UsedByComposite: 0
-  m_Offset: {x: 0.039633393, y: -0.14862724}
+  m_Offset: {x: 0.039633393, y: -0.19592035}
   m_SpriteTilingProperty:
     border: {x: 0, y: 0, z: 0, w: 0}
     pivot: {x: 0.5, y: 0.5}
@@ -1059,7 +1059,7 @@ BoxCollider2D:
     adaptiveTiling: 0
   m_AutoTiling: 0
   serializedVersion: 2
-  m_Size: {x: 3.941367, y: 1.2237475}
+  m_Size: {x: 3.941367, y: 4.0613117}
   m_EdgeRadius: 0
 --- !u!95 &497954299
 Animator:
@@ -1573,7 +1573,7 @@ BoxCollider2D:
   m_IsTrigger: 0
   m_UsedByEffector: 0
   m_UsedByComposite: 0
-  m_Offset: {x: -2.6191454, y: -0.90167165}
+  m_Offset: {x: -2.6191454, y: -0.69673777}
   m_SpriteTilingProperty:
     border: {x: 0, y: 0, z: 0, w: 0}
     pivot: {x: 0.5, y: 0.5}
@@ -1584,7 +1584,7 @@ BoxCollider2D:
     adaptiveTiling: 0
   m_AutoTiling: 0
   serializedVersion: 2
-  m_Size: {x: 20.7131, y: 5.0394125}
+  m_Size: {x: 20.7131, y: 16.105919}
   m_EdgeRadius: 0
 --- !u!95 &1146581094
 Animator:
@@ -1725,7 +1725,7 @@ BoxCollider2D:
   m_IsTrigger: 0
   m_UsedByEffector: 0
   m_UsedByComposite: 0
-  m_Offset: {x: 1.1558571, y: -0.5525708}
+  m_Offset: {x: 1.1558571, y: -0.20125222}
   m_SpriteTilingProperty:
     border: {x: 0, y: 0, z: 0, w: 0}
     pivot: {x: 0.5, y: 0.5}
@@ -1736,7 +1736,7 @@ BoxCollider2D:
     adaptiveTiling: 0
   m_AutoTiling: 0
   serializedVersion: 2
-  m_Size: {x: 12.914, y: 5.369586}
+  m_Size: {x: 12.914, y: 15.206474}
   m_EdgeRadius: 0
 --- !u!95 &1861775000
 Animator:
