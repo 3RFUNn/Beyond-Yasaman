@@ -129,7 +129,7 @@ public class LastConversation : MonoBehaviour
                 _cameraAnimator.SetTrigger("Right");
                 yield return new WaitForSeconds(2);
                 board.SetActive(true);
-                yield return new WaitForSeconds(5);
+                yield return new WaitForSeconds(10);
                 playerDialogues[dialogueIndex].SetActive(false);
                 Color color = bookDialogues[dialogueIndex].GetComponent<SpriteRenderer>().color;
                 color.a *= 0;

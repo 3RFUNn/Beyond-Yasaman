@@ -171,6 +171,12 @@ EditorBuildSettings:
     path: Assets/Scenes/Season3/S3_Scene0.unity
     guid: 1b428fed000dc3d48961cbc64455bbf9
   - enabled: 1
+    path: Assets/Scenes/Season3/S3_Scene0_1.unity
+    guid: 032a13a6faa03f84bb7f6baf3e8d1a58
+  - enabled: 1
+    path: Assets/Scenes/Season3/S3_Scene0_2.unity
+    guid: d48037d9f9e92384ba4c5c84e74f75bb
+  - enabled: 1
     path: Assets/Scenes/Season3/S3_Scene1.unity
     guid: 8ee1b701de2745a4fa7eb79f51196058
   - enabled: 1

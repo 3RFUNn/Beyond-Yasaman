@@ -13,12 +13,15 @@ public class OpenWindow : MonoBehaviour
     [SerializeField] private AudioSource windowopen;
 
     [SerializeField] private GameObject arrow;
+
+    [SerializeField] private GameObject[] Yasaman;
     
     
     // Start is called before the first frame update
     void Start()
     {
         StartCoroutine(Window());
+        Yasaman[1].SetActive(false);
     }
 
     // Update is called once per frame
@@ -38,6 +41,8 @@ public class OpenWindow : MonoBehaviour
                 // Check if the hit object is the one you want to detect clicks on
                 if (hit.collider == open)
                 {
+                    Yasaman[0].SetActive(false);
+                    Yasaman[1].SetActive(true);
                     open.enabled = false;
                     windowopen.Play();
                     window.SetActive(true);
