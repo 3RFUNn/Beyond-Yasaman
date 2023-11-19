@@ -46,6 +46,9 @@ public class ClockScene : MonoBehaviour
     
     //arrow
     [SerializeField] private GameObject arrow;
+    
+    // the first arrow
+    [SerializeField] private GameObject FirstArrow;
 
 
     private void Start()
@@ -92,6 +95,7 @@ public class ClockScene : MonoBehaviour
                 // Set the flag to true
                 isPressed = true;
                 
+                FirstArrow.SetActive(false);
                 
             }
         }
