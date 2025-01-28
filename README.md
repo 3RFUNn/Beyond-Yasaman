@@ -23,7 +23,7 @@ This repository contains the source code for a 2D educational serious game devel
 
 ## Report
 
-**[Link to International Journal of Serious Games Report](https://github.com/3RFUNn/Beyond-Yasaman/blob/main/CEXR-D-24-00123.pdf)** 
+**[Link to download the paper](https://github.com/3RFUNn/Beyond-Yasaman/blob/main/CEXR-D-24-00123.pdf)** 
 
 This link provides a detailed report on the game's design, development, and evaluation, as published in the International Journal of Serious Games (Summer 2024).
  
